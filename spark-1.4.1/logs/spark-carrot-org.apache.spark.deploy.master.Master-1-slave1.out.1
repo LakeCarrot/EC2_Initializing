@@ -1,0 +1,194 @@
+Spark Command: /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java -cp /home/carrot/spark-1.4.1/sbin/../conf/:/home/carrot/spark-1.4.1/assembly/target/scala-2.10/spark-assembly-1.4.1-hadoop2.6.1.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-rdbms-3.2.9.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-api-jdo-3.2.6.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-core-3.2.10.jar -Xms512m -Xmx512m -XX:MaxPermSize=256m org.apache.spark.deploy.master.Master --ip slave1 --port 7077 --webui-port 8080
+========================================
+15/12/22 14:25:04 INFO Master: Registered signal handlers for [TERM, HUP, INT]
+15/12/22 14:25:04 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+15/12/22 14:25:04 INFO SecurityManager: Changing view acls to: carrot
+15/12/22 14:25:04 INFO SecurityManager: Changing modify acls to: carrot
+15/12/22 14:25:04 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(carrot); users with modify permissions: Set(carrot)
+15/12/22 14:25:05 INFO Slf4jLogger: Slf4jLogger started
+15/12/22 14:25:05 INFO Remoting: Starting remoting
+15/12/22 14:25:05 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkMaster@slave1:7077]
+15/12/22 14:25:05 INFO Utils: Successfully started service 'sparkMaster' on port 7077.
+15/12/22 14:25:06 INFO Utils: Successfully started service on port 6066.
+15/12/22 14:25:06 INFO StandaloneRestServer: Started REST server for submitting applications on port 6066
+15/12/22 14:25:06 INFO Master: Starting Spark master at spark://slave1:7077
+15/12/22 14:25:06 INFO Master: Running Spark version 1.4.1
+15/12/22 14:25:06 INFO Utils: Successfully started service 'MasterUI' on port 8080.
+15/12/22 14:25:06 INFO MasterWebUI: Started MasterWebUI at http://172.28.143.112:8080
+15/12/22 14:25:06 INFO Master: I have been elected leader! New state: ALIVE
+15/12/22 14:25:07 INFO Master: Registering worker 172.28.143.112:48849 with 4 cores, 6.7 GB RAM
+15/12/22 14:25:08 INFO Master: Registering worker 172.28.141.118:44504 with 4 cores, 6.7 GB RAM
+15/12/22 14:25:09 INFO Master: Registering worker 172.28.143.191:49443 with 4 cores, 6.7 GB RAM
+15/12/22 14:25:35 INFO Master: Registering app ScalaWordCount
+15/12/22 14:25:35 INFO Master: Registered app ScalaWordCount with ID app-20151222142535-0000
+15/12/22 14:25:35 INFO Master: Launching executor app-20151222142535-0000/0 on worker worker-20151222142507-172.28.143.112-48849
+15/12/22 14:25:35 INFO Master: Launching executor app-20151222142535-0000/1 on worker worker-20151222142457-172.28.143.191-49443
+15/12/22 14:25:35 INFO Master: Launching executor app-20151222142535-0000/2 on worker worker-20151222142455-172.28.141.118-44504
+15/12/22 14:25:46 INFO Master: Removing executor app-20151222142535-0000/0 because it is EXITED
+15/12/22 14:25:46 INFO Master: Launching executor app-20151222142535-0000/3 on worker worker-20151222142507-172.28.143.112-48849
+15/12/22 14:25:49 INFO Master: Removing executor app-20151222142535-0000/1 because it is EXITED
+15/12/22 14:25:49 INFO Master: Launching executor app-20151222142535-0000/4 on worker worker-20151222142457-172.28.143.191-49443
+15/12/22 14:25:50 INFO Master: Removing executor app-20151222142535-0000/2 because it is EXITED
+15/12/22 14:25:50 INFO Master: Launching executor app-20151222142535-0000/5 on worker worker-20151222142455-172.28.141.118-44504
+15/12/22 14:25:55 INFO Master: Removing executor app-20151222142535-0000/5 because it is EXITED
+15/12/22 14:25:55 INFO Master: Launching executor app-20151222142535-0000/6 on worker worker-20151222142455-172.28.141.118-44504
+15/12/22 14:25:58 INFO Master: Removing executor app-20151222142535-0000/3 because it is EXITED
+15/12/22 14:25:58 INFO Master: Launching executor app-20151222142535-0000/7 on worker worker-20151222142507-172.28.143.112-48849
+15/12/22 14:26:00 INFO Master: Removing executor app-20151222142535-0000/6 because it is EXITED
+15/12/22 14:26:00 INFO Master: Launching executor app-20151222142535-0000/8 on worker worker-20151222142455-172.28.141.118-44504
+15/12/22 14:26:00 INFO Master: Removing executor app-20151222142535-0000/4 because it is EXITED
+15/12/22 14:26:00 INFO Master: Launching executor app-20151222142535-0000/9 on worker worker-20151222142457-172.28.143.191-49443
+15/12/22 14:26:04 INFO Master: Removing executor app-20151222142535-0000/8 because it is EXITED
+15/12/22 14:26:04 INFO Master: Launching executor app-20151222142535-0000/10 on worker worker-20151222142455-172.28.141.118-44504
+15/12/22 14:26:08 INFO Master: Received unregister request from application app-20151222142535-0000
+15/12/22 14:26:08 INFO Master: Removing app app-20151222142535-0000
+15/12/22 14:26:08 INFO SecurityManager: Changing view acls to: carrot
+15/12/22 14:26:08 INFO SecurityManager: Changing modify acls to: carrot
+15/12/22 14:26:08 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(carrot); users with modify permissions: Set(carrot)
+15/12/22 14:26:08 WARN ReliableDeliverySupervisor: Association with remote system [akka.tcp://sparkDriver@172.28.143.112:51913] has failed, address is now gated for [5000] ms. Reason is: [Disassociated].
+15/12/22 14:26:09 WARN Master: Got status update for unknown executor app-20151222142535-0000/10
+15/12/22 14:26:09 WARN Master: Got status update for unknown executor app-20151222142535-0000/9
+15/12/22 14:26:09 INFO Master: akka.tcp://sparkDriver@172.28.143.112:51913 got disassociated, removing it.
+15/12/22 14:26:09 INFO Master: akka.tcp://sparkDriver@172.28.143.112:51913 got disassociated, removing it.
+15/12/22 14:26:09 WARN Master: Got status update for unknown executor app-20151222142535-0000/7
+15/12/22 14:27:58 INFO Master: Registering app ScalaWordCount
+15/12/22 14:27:58 INFO Master: Registered app ScalaWordCount with ID app-20151222142758-0001
+15/12/22 14:27:58 INFO Master: Launching executor app-20151222142758-0001/0 on worker worker-20151222142507-172.28.143.112-48849
+15/12/22 14:27:58 INFO Master: Launching executor app-20151222142758-0001/1 on worker worker-20151222142457-172.28.143.191-49443
+15/12/22 14:27:58 INFO Master: Launching executor app-20151222142758-0001/2 on worker worker-20151222142455-172.28.141.118-44504
+15/12/22 14:31:28 INFO Master: Received unregister request from application app-20151222142758-0001
+15/12/22 14:31:28 INFO Master: Removing app app-20151222142758-0001
+15/12/22 14:31:28 WARN Master: Application ScalaWordCount is still in progress, it may be terminated abnormally.
+15/12/22 14:31:28 WARN Master: No event logs found for application ScalaWordCount in file:/home/carrot/spark-1.4.1/conf/events/.
+15/12/22 14:31:28 INFO Master: akka.tcp://sparkDriver@172.28.143.112:46059 got disassociated, removing it.
+15/12/22 14:31:28 WARN Master: Got status update for unknown executor app-20151222142758-0001/0
+15/12/22 14:31:28 WARN Master: Got status update for unknown executor app-20151222142758-0001/2
+15/12/22 14:31:29 WARN Master: Got status update for unknown executor app-20151222142758-0001/1
+15/12/22 14:32:41 INFO Master: Registering app ScalaWordCount
+15/12/22 14:32:41 INFO Master: Registered app ScalaWordCount with ID app-20151222143241-0002
+15/12/22 14:32:41 INFO Master: Launching executor app-20151222143241-0002/0 on worker worker-20151222142507-172.28.143.112-48849
+15/12/22 14:32:41 INFO Master: Launching executor app-20151222143241-0002/1 on worker worker-20151222142457-172.28.143.191-49443
+15/12/22 14:32:41 INFO Master: Launching executor app-20151222143241-0002/2 on worker worker-20151222142455-172.28.141.118-44504
+15/12/22 14:37:05 INFO Master: Received unregister request from application app-20151222143241-0002
+15/12/22 14:37:05 INFO Master: Removing app app-20151222143241-0002
+15/12/22 14:37:05 WARN Master: Application ScalaWordCount is still in progress, it may be terminated abnormally.
+15/12/22 14:37:05 INFO SecurityManager: Changing view acls to: carrot
+15/12/22 14:37:05 INFO SecurityManager: Changing modify acls to: carrot
+15/12/22 14:37:05 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(carrot); users with modify permissions: Set(carrot)
+15/12/22 14:37:05 INFO Master: akka.tcp://sparkDriver@172.28.143.112:57777 got disassociated, removing it.
+15/12/22 14:37:05 WARN Master: Got status update for unknown executor app-20151222143241-0002/0
+15/12/22 14:37:06 WARN Master: Got status update for unknown executor app-20151222143241-0002/2
+15/12/22 14:37:06 WARN Master: Got status update for unknown executor app-20151222143241-0002/1
+15/12/22 14:38:11 INFO Master: Registering app ScalaWordCount
+15/12/22 14:38:11 INFO Master: Registered app ScalaWordCount with ID app-20151222143811-0003
+15/12/22 14:38:11 INFO Master: Launching executor app-20151222143811-0003/0 on worker worker-20151222142507-172.28.143.112-48849
+15/12/22 14:38:11 INFO Master: Launching executor app-20151222143811-0003/1 on worker worker-20151222142457-172.28.143.191-49443
+15/12/22 14:38:11 INFO Master: Launching executor app-20151222143811-0003/2 on worker worker-20151222142455-172.28.141.118-44504
+15/12/22 14:41:52 INFO Master: Received unregister request from application app-20151222143811-0003
+15/12/22 14:41:52 INFO Master: Removing app app-20151222143811-0003
+15/12/22 14:41:52 INFO SecurityManager: Changing view acls to: carrot
+15/12/22 14:41:52 INFO SecurityManager: Changing modify acls to: carrot
+15/12/22 14:41:52 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(carrot); users with modify permissions: Set(carrot)
+15/12/22 14:41:53 INFO Master: akka.tcp://sparkDriver@172.28.143.112:45451 got disassociated, removing it.
+15/12/22 14:41:53 WARN Master: Got status update for unknown executor app-20151222143811-0003/0
+15/12/22 14:41:53 WARN Master: Got status update for unknown executor app-20151222143811-0003/2
+15/12/22 14:41:53 WARN Master: Got status update for unknown executor app-20151222143811-0003/1
+15/12/22 14:42:43 INFO Master: Registering app ScalaPageRank
+15/12/22 14:42:43 INFO Master: Registered app ScalaPageRank with ID app-20151222144243-0004
+15/12/22 14:42:43 INFO Master: Launching executor app-20151222144243-0004/0 on worker worker-20151222142507-172.28.143.112-48849
+15/12/22 14:42:43 INFO Master: Launching executor app-20151222144243-0004/1 on worker worker-20151222142457-172.28.143.191-49443
+15/12/22 14:42:43 INFO Master: Launching executor app-20151222144243-0004/2 on worker worker-20151222142455-172.28.141.118-44504
+15/12/22 14:45:16 INFO Master: Received unregister request from application app-20151222144243-0004
+15/12/22 14:45:16 INFO Master: Removing app app-20151222144243-0004
+15/12/22 14:45:16 WARN Master: Application ScalaPageRank is still in progress, it may be terminated abnormally.
+15/12/22 14:45:16 INFO SecurityManager: Changing view acls to: carrot
+15/12/22 14:45:16 INFO SecurityManager: Changing modify acls to: carrot
+15/12/22 14:45:16 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(carrot); users with modify permissions: Set(carrot)
+15/12/22 14:45:26 WARN Master: Got status update for unknown executor app-20151222144243-0004/2
+15/12/22 14:45:26 WARN Master: Got status update for unknown executor app-20151222144243-0004/1
+15/12/22 14:45:26 INFO Master: akka.tcp://sparkDriver@172.28.143.112:60942 got disassociated, removing it.
+15/12/22 14:45:28 WARN Master: Got status update for unknown executor app-20151222144243-0004/0
+15/12/22 14:46:24 INFO Master: Registering app ScalaPageRank
+15/12/22 14:46:24 INFO Master: Registered app ScalaPageRank with ID app-20151222144624-0005
+15/12/22 14:46:24 INFO Master: Launching executor app-20151222144624-0005/0 on worker worker-20151222142507-172.28.143.112-48849
+15/12/22 14:46:24 INFO Master: Launching executor app-20151222144624-0005/1 on worker worker-20151222142457-172.28.143.191-49443
+15/12/22 14:46:24 INFO Master: Launching executor app-20151222144624-0005/2 on worker worker-20151222142455-172.28.141.118-44504
+15/12/22 14:48:28 INFO Master: Received unregister request from application app-20151222144624-0005
+15/12/22 14:48:28 INFO Master: Removing app app-20151222144624-0005
+15/12/22 14:48:28 INFO SecurityManager: Changing view acls to: carrot
+15/12/22 14:48:28 INFO SecurityManager: Changing modify acls to: carrot
+15/12/22 14:48:28 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(carrot); users with modify permissions: Set(carrot)
+15/12/22 14:48:29 WARN Master: Got status update for unknown executor app-20151222144624-0005/2
+15/12/22 14:48:30 WARN Master: Got status update for unknown executor app-20151222144624-0005/1
+15/12/22 14:48:33 INFO Master: akka.tcp://sparkDriver@172.28.143.112:53888 got disassociated, removing it.
+15/12/22 14:48:35 WARN Master: Got status update for unknown executor app-20151222144624-0005/0
+15/12/22 14:49:55 INFO Master: Registering app ScalaPageRank
+15/12/22 14:49:55 INFO Master: Registered app ScalaPageRank with ID app-20151222144955-0006
+15/12/22 14:49:55 INFO Master: Launching executor app-20151222144955-0006/0 on worker worker-20151222142507-172.28.143.112-48849
+15/12/22 14:49:55 INFO Master: Launching executor app-20151222144955-0006/1 on worker worker-20151222142457-172.28.143.191-49443
+15/12/22 14:49:55 INFO Master: Launching executor app-20151222144955-0006/2 on worker worker-20151222142455-172.28.141.118-44504
+15/12/22 14:51:51 INFO Master: Received unregister request from application app-20151222144955-0006
+15/12/22 14:51:51 INFO Master: Removing app app-20151222144955-0006
+15/12/22 14:51:51 INFO SecurityManager: Changing view acls to: carrot
+15/12/22 14:51:51 INFO SecurityManager: Changing modify acls to: carrot
+15/12/22 14:51:51 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(carrot); users with modify permissions: Set(carrot)
+15/12/22 14:51:52 WARN Master: Got status update for unknown executor app-20151222144955-0006/2
+15/12/22 14:51:52 WARN Master: Got status update for unknown executor app-20151222144955-0006/1
+15/12/22 14:51:53 INFO Master: akka.tcp://sparkDriver@172.28.143.112:52372 got disassociated, removing it.
+15/12/22 14:51:54 WARN Master: Got status update for unknown executor app-20151222144955-0006/0
+15/12/22 14:52:51 INFO Master: Registering app ScalaPageRank
+15/12/22 14:52:51 INFO Master: Registered app ScalaPageRank with ID app-20151222145251-0007
+15/12/22 14:52:51 INFO Master: Launching executor app-20151222145251-0007/0 on worker worker-20151222142507-172.28.143.112-48849
+15/12/22 14:52:51 INFO Master: Launching executor app-20151222145251-0007/1 on worker worker-20151222142457-172.28.143.191-49443
+15/12/22 14:52:51 INFO Master: Launching executor app-20151222145251-0007/2 on worker worker-20151222142455-172.28.141.118-44504
+15/12/22 14:54:49 INFO Master: Received unregister request from application app-20151222145251-0007
+15/12/22 14:54:49 INFO Master: Removing app app-20151222145251-0007
+15/12/22 14:54:49 INFO SecurityManager: Changing view acls to: carrot
+15/12/22 14:54:49 INFO SecurityManager: Changing modify acls to: carrot
+15/12/22 14:54:49 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(carrot); users with modify permissions: Set(carrot)
+15/12/22 14:54:52 WARN Master: Got status update for unknown executor app-20151222145251-0007/2
+15/12/22 14:54:52 WARN Master: Got status update for unknown executor app-20151222145251-0007/1
+15/12/22 14:54:52 INFO Master: akka.tcp://sparkDriver@172.28.143.112:48734 got disassociated, removing it.
+15/12/22 14:54:53 WARN Master: Got status update for unknown executor app-20151222145251-0007/0
+15/12/22 14:55:35 INFO Master: Registering app ScalaPageRank
+15/12/22 14:55:35 INFO Master: Registered app ScalaPageRank with ID app-20151222145535-0008
+15/12/22 14:55:35 INFO Master: Launching executor app-20151222145535-0008/0 on worker worker-20151222142507-172.28.143.112-48849
+15/12/22 14:55:35 INFO Master: Launching executor app-20151222145535-0008/1 on worker worker-20151222142457-172.28.143.191-49443
+15/12/22 14:55:35 INFO Master: Launching executor app-20151222145535-0008/2 on worker worker-20151222142455-172.28.141.118-44504
+15/12/22 14:57:34 INFO Master: Received unregister request from application app-20151222145535-0008
+15/12/22 14:57:34 INFO Master: Removing app app-20151222145535-0008
+15/12/22 14:57:34 WARN Master: Application ScalaPageRank is still in progress, it may be terminated abnormally.
+15/12/22 14:57:34 INFO SecurityManager: Changing view acls to: carrot
+15/12/22 14:57:34 INFO SecurityManager: Changing modify acls to: carrot
+15/12/22 14:57:34 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(carrot); users with modify permissions: Set(carrot)
+15/12/22 14:57:36 WARN Master: Got status update for unknown executor app-20151222145535-0008/2
+15/12/22 14:57:36 WARN Master: Got status update for unknown executor app-20151222145535-0008/1
+15/12/22 14:57:37 WARN Master: Got status update for unknown executor app-20151222145535-0008/0
+15/12/22 14:57:38 INFO Master: akka.tcp://sparkDriver@172.28.143.112:38085 got disassociated, removing it.
+15/12/22 14:58:51 WARN Master: Got status update for unknown executor app-20151222142535-0000/2
+15/12/22 14:58:51 WARN Master: Got status update for unknown executor app-20151222145535-0008/2
+15/12/22 14:58:51 WARN Master: Got status update for unknown executor app-20151222145251-0007/2
+15/12/22 14:58:51 WARN Master: Got status update for unknown executor app-20151222144955-0006/2
+15/12/22 14:58:51 WARN Master: Got status update for unknown executor app-20151222142535-0000/6
+15/12/22 14:58:51 WARN Master: Got status update for unknown executor app-20151222144243-0004/2
+15/12/22 14:58:51 WARN Master: Got status update for unknown executor app-20151222142535-0000/10
+15/12/22 14:58:51 WARN Master: Got status update for unknown executor app-20151222142535-0000/8
+15/12/22 14:58:51 WARN Master: Got status update for unknown executor app-20151222144624-0005/2
+15/12/22 14:58:51 WARN Master: Got status update for unknown executor app-20151222142535-0000/5
+15/12/22 14:58:52 INFO Master: akka.tcp://sparkWorker@172.28.141.118:44504 got disassociated, removing it.
+15/12/22 14:58:52 WARN ReliableDeliverySupervisor: Association with remote system [akka.tcp://sparkWorker@172.28.141.118:44504] has failed, address is now gated for [5000] ms. Reason is: [Disassociated].
+15/12/22 14:58:53 INFO Master: Removing worker worker-20151222142455-172.28.141.118-44504 on 172.28.141.118:44504
+15/12/22 14:58:53 INFO Master: akka.tcp://sparkWorker@172.28.141.118:44504 got disassociated, removing it.
+15/12/22 14:58:53 WARN Master: Got status update for unknown executor app-20151222142535-0000/1
+15/12/22 14:58:53 WARN Master: Got status update for unknown executor app-20151222142535-0000/9
+15/12/22 14:58:53 WARN Master: Got status update for unknown executor app-20151222145251-0007/1
+15/12/22 14:58:53 WARN Master: Got status update for unknown executor app-20151222144955-0006/1
+15/12/22 14:58:53 WARN Master: Got status update for unknown executor app-20151222144243-0004/1
+15/12/22 14:58:53 WARN Master: Got status update for unknown executor app-20151222145535-0008/1
+15/12/22 14:58:53 WARN Master: Got status update for unknown executor app-20151222142535-0000/4
+15/12/22 14:58:53 ERROR Master: RECEIVED SIGNAL 15: SIGTERM
+15/12/22 14:58:53 INFO Master: akka.tcp://sparkWorker@172.28.143.191:49443 got disassociated, removing it.
+15/12/22 14:58:53 INFO Master: Removing worker worker-20151222142457-172.28.143.191-49443 on 172.28.143.191:49443
+15/12/22 14:58:53 INFO Master: akka.tcp://sparkWorker@172.28.143.191:49443 got disassociated, removing it.
+15/12/22 14:58:53 WARN ReliableDeliverySupervisor: Association with remote system [akka.tcp://sparkWorker@172.28.143.191:49443] has failed, address is now gated for [5000] ms. Reason is: [Disassociated].
+15/12/22 14:58:53 INFO Utils: Shutdown hook called
