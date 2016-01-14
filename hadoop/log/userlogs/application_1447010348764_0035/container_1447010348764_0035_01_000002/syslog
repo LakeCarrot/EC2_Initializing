@@ -1,0 +1,36 @@
+2015-11-14 20:53:00,484 WARN [main] org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-11-14 20:53:00,538 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2015-11-14 20:53:00,585 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2015-11-14 20:53:00,585 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system started
+2015-11-14 20:53:00,592 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-11-14 20:53:00,592 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1447010348764_0035, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@67467dbe)
+2015-11-14 20:53:00,649 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-11-14 20:53:00,809 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /usr/tmp/nm-local-dir/usercache/carrot/appcache/application_1447010348764_0035
+2015-11-14 20:53:01,059 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2015-11-14 20:53:01,349 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2015-11-14 20:53:01,482 INFO [main] org.apache.hadoop.mapred.MapTask: Processing split: hdfs://172.28.143.112:9000/HiBench/Pagerank/temp/dummy:17+3
+2015-11-14 20:53:01,500 INFO [main] org.apache.hadoop.mapred.MapTask: numReduceTasks: 0
+2015-11-14 20:53:01,541 INFO [main] HiBench.HtmlCore: WARNING: dict empty!!!
+2015-11-14 20:53:01,895 INFO [main] HiBench.PagerankData$DummyToPageRankLinksMapper: still running: 4994 of 158334
+2015-11-14 20:53:02,179 INFO [main] HiBench.PagerankData$DummyToPageRankLinksMapper: still running: 14994 of 158334
+2015-11-14 20:53:02,426 INFO [main] HiBench.PagerankData$DummyToPageRankLinksMapper: still running: 24994 of 158334
+2015-11-14 20:53:02,668 INFO [main] HiBench.PagerankData$DummyToPageRankLinksMapper: still running: 34994 of 158334
+2015-11-14 20:53:02,935 INFO [main] HiBench.PagerankData$DummyToPageRankLinksMapper: still running: 44994 of 158334
+2015-11-14 20:53:03,197 INFO [main] HiBench.PagerankData$DummyToPageRankLinksMapper: still running: 54994 of 158334
+2015-11-14 20:53:03,484 INFO [main] HiBench.PagerankData$DummyToPageRankLinksMapper: still running: 64994 of 158334
+2015-11-14 20:53:03,757 INFO [main] HiBench.PagerankData$DummyToPageRankLinksMapper: still running: 74994 of 158334
+2015-11-14 20:53:04,052 INFO [main] HiBench.PagerankData$DummyToPageRankLinksMapper: still running: 84994 of 158334
+2015-11-14 20:53:04,315 INFO [main] HiBench.PagerankData$DummyToPageRankLinksMapper: still running: 94994 of 158334
+2015-11-14 20:53:05,285 INFO [main] HiBench.PagerankData$DummyToPageRankLinksMapper: still running: 104994 of 158334
+2015-11-14 20:53:05,629 INFO [main] HiBench.PagerankData$DummyToPageRankLinksMapper: still running: 114994 of 158334
+2015-11-14 20:53:05,928 INFO [main] HiBench.PagerankData$DummyToPageRankLinksMapper: still running: 124994 of 158334
+2015-11-14 20:53:06,224 INFO [main] HiBench.PagerankData$DummyToPageRankLinksMapper: still running: 134994 of 158334
+2015-11-14 20:53:06,489 INFO [main] HiBench.PagerankData$DummyToPageRankLinksMapper: still running: 144994 of 158334
+2015-11-14 20:53:06,772 INFO [main] HiBench.PagerankData$DummyToPageRankLinksMapper: still running: 154994 of 158334
+2015-11-14 20:53:10,421 INFO [main] org.apache.hadoop.mapred.Task: Task:attempt_1447010348764_0035_m_000000_0 is done. And is in the process of committing
+2015-11-14 20:53:10,446 INFO [main] org.apache.hadoop.mapred.Task: Task attempt_1447010348764_0035_m_000000_0 is allowed to commit now
+2015-11-14 20:53:11,117 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_1447010348764_0035_m_000000_0' to hdfs://172.28.143.112:9000/HiBench/Pagerank/Input/edges/_temporary/1/task_1447010348764_0035_m_000000
+2015-11-14 20:53:11,146 INFO [main] org.apache.hadoop.mapred.Task: Task 'attempt_1447010348764_0035_m_000000_0' done.
+2015-11-14 20:53:11,147 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Stopping MapTask metrics system...
+2015-11-14 20:53:11,147 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system stopped.
+2015-11-14 20:53:11,147 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system shutdown complete.

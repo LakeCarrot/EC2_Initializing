@@ -1,0 +1,18 @@
+2015-11-14 21:00:28,025 WARN [main] org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-11-14 21:00:28,078 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2015-11-14 21:00:28,126 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2015-11-14 21:00:28,126 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system started
+2015-11-14 21:00:28,133 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-11-14 21:00:28,133 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1447010348764_0041, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@2190954e)
+2015-11-14 21:00:28,189 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-11-14 21:00:28,347 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /usr/tmp/nm-local-dir/usercache/carrot/appcache/application_1447010348764_0041
+2015-11-14 21:00:28,597 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2015-11-14 21:00:28,908 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2015-11-14 21:00:29,038 INFO [main] org.apache.hadoop.mapred.MapTask: Processing split: org.apache.hadoop.examples.terasort.TeraGen$RangeInputFormat$RangeInputSplit@22ad8437
+2015-11-14 21:01:48,871 INFO [main] org.apache.hadoop.mapred.Task: Task:attempt_1447010348764_0041_m_000000_0 is done. And is in the process of committing
+2015-11-14 21:01:48,891 INFO [main] org.apache.hadoop.mapred.Task: Task attempt_1447010348764_0041_m_000000_0 is allowed to commit now
+2015-11-14 21:01:50,460 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_1447010348764_0041_m_000000_0' to hdfs://172.28.143.112:9000/HiBench/Terasort/Input/_temporary/1/task_1447010348764_0041_m_000000
+2015-11-14 21:01:50,482 INFO [main] org.apache.hadoop.mapred.Task: Task 'attempt_1447010348764_0041_m_000000_0' done.
+2015-11-14 21:01:50,582 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Stopping MapTask metrics system...
+2015-11-14 21:01:50,583 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system stopped.
+2015-11-14 21:01:50,583 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system shutdown complete.

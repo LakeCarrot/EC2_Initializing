@@ -1,0 +1,81 @@
+2015-11-14 20:47:23,287 WARN [main] org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-11-14 20:47:23,495 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2015-11-14 20:47:23,683 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2015-11-14 20:47:23,683 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system started
+2015-11-14 20:47:23,695 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-11-14 20:47:23,695 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1447010348764_0031, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@2190954e)
+2015-11-14 20:47:23,862 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-11-14 20:47:24,293 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /usr/tmp/nm-local-dir/usercache/carrot/appcache/application_1447010348764_0031
+2015-11-14 20:47:25,645 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2015-11-14 20:47:26,627 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2015-11-14 20:47:26,757 INFO [main] org.apache.hadoop.mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@57797bd3
+2015-11-14 20:47:26,791 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: MergerManager: memoryLimit=130652568, maxSingleShuffleLimit=32663142, mergeThreshold=86230696, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2015-11-14 20:47:26,800 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1447010348764_0031_r_000154_0 Thread started: EventFetcher for fetching Map Completion Events
+2015-11-14 20:47:26,835 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1447010348764_0031_r_000154_0: Got 12 new map-outputs
+2015-11-14 20:47:26,841 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning slave1:13562 with 4 to fetcher#5
+2015-11-14 20:47:26,841 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 4 of 4 to slave1:13562 to fetcher#5
+2015-11-14 20:47:26,841 INFO [fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning slave2:13562 with 5 to fetcher#4
+2015-11-14 20:47:26,847 INFO [fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 5 of 5 to slave2:13562 to fetcher#4
+2015-11-14 20:47:26,855 INFO [fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning slave3:13562 with 3 to fetcher#2
+2015-11-14 20:47:26,855 INFO [fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 3 of 3 to slave3:13562 to fetcher#2
+2015-11-14 20:47:26,938 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=13562/mapOutput?job=job_1447010348764_0031&reduce=154&map=attempt_1447010348764_0031_m_000001_0,attempt_1447010348764_0031_m_000004_0,attempt_1447010348764_0031_m_000007_0,attempt_1447010348764_0031_m_000010_0 sent hash and received reply
+2015-11-14 20:47:26,939 INFO [fetcher#2] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=13562/mapOutput?job=job_1447010348764_0031&reduce=154&map=attempt_1447010348764_0031_m_000002_0,attempt_1447010348764_0031_m_000005_0,attempt_1447010348764_0031_m_000008_0 sent hash and received reply
+2015-11-14 20:47:26,975 INFO [fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=13562/mapOutput?job=job_1447010348764_0031&reduce=154&map=attempt_1447010348764_0031_m_000000_0,attempt_1447010348764_0031_m_000003_0,attempt_1447010348764_0031_m_000006_0,attempt_1447010348764_0031_m_000009_0,attempt_1447010348764_0031_m_000011_0 sent hash and received reply
+2015-11-14 20:47:26,975 INFO [fetcher#2] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#2 about to shuffle output of map attempt_1447010348764_0031_m_000002_0 decomp: 9130 len: 9134 to MEMORY
+2015-11-14 20:47:26,976 INFO [fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#4 about to shuffle output of map attempt_1447010348764_0031_m_000000_0 decomp: 9356 len: 9360 to MEMORY
+2015-11-14 20:47:26,976 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#5 about to shuffle output of map attempt_1447010348764_0031_m_000001_0 decomp: 9266 len: 9270 to MEMORY
+2015-11-14 20:47:26,977 INFO [fetcher#2] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 9130 bytes from map-output for attempt_1447010348764_0031_m_000002_0
+2015-11-14 20:47:26,977 INFO [fetcher#4] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 9356 bytes from map-output for attempt_1447010348764_0031_m_000000_0
+2015-11-14 20:47:26,978 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 9266 bytes from map-output for attempt_1447010348764_0031_m_000001_0
+2015-11-14 20:47:26,992 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 9266, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->27752
+2015-11-14 20:47:26,993 INFO [fetcher#4] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 9356, inMemoryMapOutputs.size() -> 2, commitMemory -> 9266, usedMemory ->27752
+2015-11-14 20:47:26,997 INFO [fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#4 about to shuffle output of map attempt_1447010348764_0031_m_000003_0 decomp: 9051 len: 9055 to MEMORY
+2015-11-14 20:47:26,997 INFO [fetcher#4] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 9051 bytes from map-output for attempt_1447010348764_0031_m_000003_0
+2015-11-14 20:47:26,997 INFO [fetcher#4] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 9051, inMemoryMapOutputs.size() -> 3, commitMemory -> 18622, usedMemory ->36803
+2015-11-14 20:47:26,998 INFO [fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#4 about to shuffle output of map attempt_1447010348764_0031_m_000006_0 decomp: 8944 len: 8948 to MEMORY
+2015-11-14 20:47:26,998 INFO [fetcher#4] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 8944 bytes from map-output for attempt_1447010348764_0031_m_000006_0
+2015-11-14 20:47:26,998 INFO [fetcher#4] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 8944, inMemoryMapOutputs.size() -> 4, commitMemory -> 27673, usedMemory ->45747
+2015-11-14 20:47:26,998 INFO [fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#4 about to shuffle output of map attempt_1447010348764_0031_m_000009_0 decomp: 9420 len: 9424 to MEMORY
+2015-11-14 20:47:26,998 INFO [fetcher#4] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 9420 bytes from map-output for attempt_1447010348764_0031_m_000009_0
+2015-11-14 20:47:26,998 INFO [fetcher#4] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 9420, inMemoryMapOutputs.size() -> 5, commitMemory -> 36617, usedMemory ->55167
+2015-11-14 20:47:26,998 INFO [fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#4 about to shuffle output of map attempt_1447010348764_0031_m_000011_0 decomp: 9279 len: 9283 to MEMORY
+2015-11-14 20:47:26,998 INFO [fetcher#4] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 9279 bytes from map-output for attempt_1447010348764_0031_m_000011_0
+2015-11-14 20:47:26,998 INFO [fetcher#4] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 9279, inMemoryMapOutputs.size() -> 6, commitMemory -> 46037, usedMemory ->64446
+2015-11-14 20:47:26,999 INFO [fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: slave2:13562 freed by fetcher#4 in 152ms
+2015-11-14 20:47:26,999 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#5 about to shuffle output of map attempt_1447010348764_0031_m_000004_0 decomp: 9554 len: 9558 to MEMORY
+2015-11-14 20:47:26,999 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 9554 bytes from map-output for attempt_1447010348764_0031_m_000004_0
+2015-11-14 20:47:26,999 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 9554, inMemoryMapOutputs.size() -> 7, commitMemory -> 55316, usedMemory ->74000
+2015-11-14 20:47:26,999 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#5 about to shuffle output of map attempt_1447010348764_0031_m_000007_0 decomp: 9047 len: 9051 to MEMORY
+2015-11-14 20:47:26,999 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 9047 bytes from map-output for attempt_1447010348764_0031_m_000007_0
+2015-11-14 20:47:26,999 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 9047, inMemoryMapOutputs.size() -> 8, commitMemory -> 64870, usedMemory ->83047
+2015-11-14 20:47:27,000 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#5 about to shuffle output of map attempt_1447010348764_0031_m_000010_0 decomp: 9146 len: 9150 to MEMORY
+2015-11-14 20:47:27,000 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 9146 bytes from map-output for attempt_1447010348764_0031_m_000010_0
+2015-11-14 20:47:27,000 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 9146, inMemoryMapOutputs.size() -> 9, commitMemory -> 73917, usedMemory ->92193
+2015-11-14 20:47:27,000 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: slave1:13562 freed by fetcher#5 in 159ms
+2015-11-14 20:47:27,000 INFO [fetcher#2] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 9130, inMemoryMapOutputs.size() -> 10, commitMemory -> 83063, usedMemory ->92193
+2015-11-14 20:47:27,000 INFO [fetcher#2] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#2 about to shuffle output of map attempt_1447010348764_0031_m_000005_0 decomp: 9648 len: 9652 to MEMORY
+2015-11-14 20:47:27,000 INFO [fetcher#2] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 9648 bytes from map-output for attempt_1447010348764_0031_m_000005_0
+2015-11-14 20:47:27,000 INFO [fetcher#2] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 9648, inMemoryMapOutputs.size() -> 11, commitMemory -> 92193, usedMemory ->101841
+2015-11-14 20:47:27,000 INFO [fetcher#2] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#2 about to shuffle output of map attempt_1447010348764_0031_m_000008_0 decomp: 9275 len: 9279 to MEMORY
+2015-11-14 20:47:27,000 INFO [fetcher#2] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 9275 bytes from map-output for attempt_1447010348764_0031_m_000008_0
+2015-11-14 20:47:27,001 INFO [fetcher#2] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 9275, inMemoryMapOutputs.size() -> 12, commitMemory -> 101841, usedMemory ->111116
+2015-11-14 20:47:27,001 INFO [fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: slave3:13562 freed by fetcher#2 in 146ms
+2015-11-14 20:47:27,007 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: EventFetcher is interrupted.. Returning
+2015-11-14 20:47:27,033 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: finalMerge called with 12 in-memory map-outputs and 0 on-disk map-outputs
+2015-11-14 20:47:27,043 INFO [main] org.apache.hadoop.mapred.Merger: Merging 12 sorted segments
+2015-11-14 20:47:27,044 INFO [main] org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 12 segments left of total size: 110996 bytes
+2015-11-14 20:47:27,246 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merged 12 segments, 111116 bytes to disk to satisfy reduce memory limit
+2015-11-14 20:47:27,252 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 1 files, 111098 bytes from disk
+2015-11-14 20:47:27,253 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+2015-11-14 20:47:27,253 INFO [main] org.apache.hadoop.mapred.Merger: Merging 1 sorted segments
+2015-11-14 20:47:27,254 INFO [main] org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 111084 bytes
+2015-11-14 20:47:27,262 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+2015-11-14 20:47:27,479 INFO [main] org.apache.hadoop.io.compress.CodecPool: Got brand-new compressor [.deflate]
+2015-11-14 20:47:27,755 INFO [main] HiBench.HiveData$GenerateRankingsReducer: pid: 154, 0 erros, 0 missed
+2015-11-14 20:47:28,339 INFO [main] org.apache.hadoop.mapred.Task: Task:attempt_1447010348764_0031_r_000154_0 is done. And is in the process of committing
+2015-11-14 20:47:28,532 INFO [main] org.apache.hadoop.mapred.Task: Task attempt_1447010348764_0031_r_000154_0 is allowed to commit now
+2015-11-14 20:47:28,548 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_1447010348764_0031_r_000154_0' to hdfs://172.28.143.112:9000/HiBench/Aggregation/Input/rankings/_temporary/1/task_1447010348764_0031_r_000154
+2015-11-14 20:47:28,729 INFO [main] org.apache.hadoop.mapred.Task: Task 'attempt_1447010348764_0031_r_000154_0' done.
+2015-11-14 20:47:28,731 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Stopping ReduceTask metrics system...
+2015-11-14 20:47:28,731 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system stopped.
+2015-11-14 20:47:28,731 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system shutdown complete.

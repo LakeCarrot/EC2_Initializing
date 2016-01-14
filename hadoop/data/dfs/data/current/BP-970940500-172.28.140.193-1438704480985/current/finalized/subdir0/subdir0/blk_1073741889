@@ -1,0 +1,1 @@
+djobId=job_1438741458175_0003,submitTime=1438742081243,launchTime=1438742084723,firstMapTaskLaunchTime=1438742086848,firstReduceTaskLaunchTime=1438742093831,finishTime=1438742105118,resourcesPerMap=1024,resourcesPerReduce=1024,numMaps=12,numReduces=6,user=dogtail,queue=default,status=SUCCEEDED,mapSlotSeconds=35,reduceSlotSeconds=28,jobName=Create rankings

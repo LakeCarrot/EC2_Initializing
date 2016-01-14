@@ -1,0 +1,19 @@
+2015-11-07 23:13:13,785 WARN [main] org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-11-07 23:13:14,050 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2015-11-07 23:13:14,183 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2015-11-07 23:13:14,183 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system started
+2015-11-07 23:13:14,210 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-11-07 23:13:14,210 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1446430531861_0005, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@6c892ba5)
+2015-11-07 23:13:14,369 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-11-07 23:13:14,719 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /usr/tmp/nm-local-dir/usercache/carrot/appcache/application_1446430531861_0005
+2015-11-07 23:13:15,612 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2015-11-07 23:13:16,088 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2015-11-07 23:13:16,239 INFO [main] org.apache.hadoop.mapred.MapTask: Processing split: hdfs://172.28.143.112:9000/HiBench/Kmeans/Input/samples-seeds/seed1:0+214
+2015-11-07 23:13:16,273 INFO [main] org.apache.hadoop.mapred.MapTask: numReduceTasks: 0
+2015-11-07 23:13:16,354 INFO [main] org.apache.mahout.clustering.kmeans.GenKMeansDataset: dimension=0: mean=923.8127125961221, std=-6.219477797914834
+2015-11-07 23:13:16,355 INFO [main] org.apache.mahout.clustering.kmeans.GenKMeansDataset: dimension=1: mean=233.86692314650713, std=-73.34521089418348
+2015-11-07 23:13:16,355 INFO [main] org.apache.mahout.clustering.kmeans.GenKMeansDataset: dimension=2: mean=751.6653065976037, std=-46.98193338229124
+2015-11-07 23:13:17,187 INFO [main] org.apache.hadoop.mapred.Task: Task:attempt_1446430531861_0005_m_000001_0 is done. And is in the process of committing
+2015-11-07 23:13:17,368 INFO [main] org.apache.hadoop.mapred.Task: Task attempt_1446430531861_0005_m_000001_0 is allowed to commit now
+2015-11-07 23:13:17,410 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_1446430531861_0005_m_000001_0' to hdfs://172.28.143.112:9000/HiBench/Kmeans/Input/samples/_temporary/1/task_1446430531861_0005_m_000001
+2015-11-07 23:13:17,483 INFO [main] org.apache.hadoop.mapred.Task: Task 'attempt_1446430531861_0005_m_000001_0' done.

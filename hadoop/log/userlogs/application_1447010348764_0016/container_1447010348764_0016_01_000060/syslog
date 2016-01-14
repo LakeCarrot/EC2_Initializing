@@ -1,0 +1,32 @@
+2015-11-14 20:15:48,356 WARN [main] org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-11-14 20:15:48,671 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2015-11-14 20:15:48,927 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2015-11-14 20:15:48,927 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system started
+2015-11-14 20:15:48,954 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-11-14 20:15:48,954 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1447010348764_0016, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@e8e7a46)
+2015-11-14 20:15:49,194 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-11-14 20:15:49,631 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /usr/tmp/nm-local-dir/usercache/carrot/appcache/application_1447010348764_0016
+2015-11-14 20:15:51,145 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2015-11-14 20:15:51,992 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2015-11-14 20:15:52,166 INFO [main] org.apache.hadoop.mapred.MapTask: Processing split: hdfs://172.28.143.112:9000/HiBench/Aggregation/Input/rankings/part-00007:0+258
+2015-11-14 20:15:52,204 INFO [main] org.apache.hadoop.io.compress.CodecPool: Got brand-new decompressor [.deflate]
+2015-11-14 20:15:52,207 INFO [main] org.apache.hadoop.io.compress.CodecPool: Got brand-new decompressor [.deflate]
+2015-11-14 20:15:52,207 INFO [main] org.apache.hadoop.io.compress.CodecPool: Got brand-new decompressor [.deflate]
+2015-11-14 20:15:52,207 INFO [main] org.apache.hadoop.io.compress.CodecPool: Got brand-new decompressor [.deflate]
+2015-11-14 20:15:52,209 INFO [main] org.apache.hadoop.mapred.MapTask: numReduceTasks: 200
+2015-11-14 20:15:52,239 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2015-11-14 20:15:52,239 INFO [main] org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2015-11-14 20:15:52,239 INFO [main] org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2015-11-14 20:15:52,239 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2015-11-14 20:15:52,239 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2015-11-14 20:15:52,247 INFO [main] org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2015-11-14 20:15:52,251 INFO [main] org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2015-11-14 20:15:52,251 INFO [main] org.apache.hadoop.mapred.MapTask: Spilling map output
+2015-11-14 20:15:52,252 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufend = 71; bufvoid = 104857600
+2015-11-14 20:15:52,252 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396(104857584); kvend = 26214396(104857584); length = 1/6553600
+2015-11-14 20:15:52,325 INFO [main] org.apache.hadoop.mapred.MapTask: Finished spill 0
+2015-11-14 20:15:52,347 INFO [main] org.apache.hadoop.mapred.Task: Task:attempt_1447010348764_0016_m_000055_0 is done. And is in the process of committing
+2015-11-14 20:15:52,521 INFO [main] org.apache.hadoop.mapred.Task: Task 'attempt_1447010348764_0016_m_000055_0' done.
+2015-11-14 20:15:52,522 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Stopping MapTask metrics system...
+2015-11-14 20:15:52,522 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system stopped.
+2015-11-14 20:15:52,522 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system shutdown complete.

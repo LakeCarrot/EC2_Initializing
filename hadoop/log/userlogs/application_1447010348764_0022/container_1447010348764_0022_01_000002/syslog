@@ -1,0 +1,15 @@
+2015-11-14 20:24:24,050 WARN [main] org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-11-14 20:24:24,101 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2015-11-14 20:24:24,149 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2015-11-14 20:24:24,149 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system started
+2015-11-14 20:24:24,156 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-11-14 20:24:24,156 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1447010348764_0022, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@2bfd9121)
+2015-11-14 20:24:24,213 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-11-14 20:24:24,351 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /usr/tmp/nm-local-dir/usercache/carrot/appcache/application_1447010348764_0022
+2015-11-14 20:24:24,580 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2015-11-14 20:24:24,847 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2015-11-14 20:24:24,965 INFO [main] org.apache.hadoop.mapred.MapTask: Processing split: hdfs://172.28.143.112:9000/HiBench/Sort/Input/dummy-split-0:0+1
+2015-11-14 20:24:25,116 INFO [main] org.apache.hadoop.mapred.Task: Task:attempt_1447010348764_0022_m_000000_0 is done. And is in the process of committing
+2015-11-14 20:24:25,154 INFO [main] org.apache.hadoop.mapred.Task: Task attempt_1447010348764_0022_m_000000_0 is allowed to commit now
+2015-11-14 20:24:25,166 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_1447010348764_0022_m_000000_0' to hdfs://172.28.143.112:9000/HiBench/Sort/Input/_temporary/1/task_1447010348764_0022_m_000000
+2015-11-14 20:24:25,189 INFO [main] org.apache.hadoop.mapred.Task: Task 'attempt_1447010348764_0022_m_000000_0' done.

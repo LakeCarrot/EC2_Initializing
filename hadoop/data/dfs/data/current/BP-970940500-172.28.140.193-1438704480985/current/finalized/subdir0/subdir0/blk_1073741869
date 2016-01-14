@@ -1,0 +1,1 @@
+fjobId=job_1438741458175_0002,submitTime=1438741810241,launchTime=1438741817431,firstMapTaskLaunchTime=1438741819594,firstReduceTaskLaunchTime=1438741827522,finishTime=1438741857750,resourcesPerMap=1024,resourcesPerReduce=1024,numMaps=18,numReduces=6,user=dogtail,queue=default,status=SUCCEEDED,mapSlotSeconds=58,reduceSlotSeconds=70,jobName=Create uservisits

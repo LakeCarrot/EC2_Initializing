@@ -1,0 +1,1326 @@
+2015-11-14 21:36:50,508 WARN [main] org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-11-14 21:36:50,858 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2015-11-14 21:36:50,966 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2015-11-14 21:36:50,966 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system started
+2015-11-14 21:36:51,054 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-11-14 21:36:51,054 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1447010348764_0042, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@79e582c1)
+2015-11-14 21:36:51,258 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-11-14 21:36:51,728 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /usr/tmp/nm-local-dir/usercache/carrot/appcache/application_1447010348764_0042
+2015-11-14 21:36:52,130 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2015-11-14 21:36:52,723 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2015-11-14 21:36:52,916 INFO [main] org.apache.hadoop.mapred.MapTask: Processing split: hdfs://172.28.143.112:9000/HiBench/Nutchindexing/temp/dummy:5+2
+2015-11-14 21:36:52,945 INFO [main] org.apache.hadoop.mapred.MapTask: numReduceTasks: 0
+2015-11-14 21:36:53,134 INFO [main] org.apache.hadoop.io.compress.CodecPool: Got brand-new compressor [.deflate]
+2015-11-14 21:36:53,172 INFO [main] HiBench.HtmlCore: WARNING: dict empty!!!
+2015-11-14 21:36:53,286 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 3 of <1000000000, 1500000000>
+2015-11-14 21:36:53,471 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 120003 of <1000000000, 1500000000>
+2015-11-14 21:36:53,518 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 240003 of <1000000000, 1500000000>
+2015-11-14 21:36:53,546 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 360003 of <1000000000, 1500000000>
+2015-11-14 21:36:53,569 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 480003 of <1000000000, 1500000000>
+2015-11-14 21:36:53,602 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 600003 of <1000000000, 1500000000>
+2015-11-14 21:37:08,450 INFO [Thread-16] org.apache.hadoop.hdfs.DFSClient: Exception in createBlockOutputStream
+java.io.IOException: Bad connect ack with firstBadLink as 172.28.140.193:50010
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.createBlockOutputStream(DFSOutputStream.java:1460)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.nextBlockOutputStream(DFSOutputStream.java:1361)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.run(DFSOutputStream.java:588)
+2015-11-14 21:37:08,452 INFO [Thread-16] org.apache.hadoop.hdfs.DFSClient: Abandoning BP-1453324395-172.28.143.112-1446961098457:blk_1073749329_8549
+2015-11-14 21:37:08,450 INFO [Thread-15] org.apache.hadoop.hdfs.DFSClient: Exception in createBlockOutputStream
+java.io.IOException: Bad connect ack with firstBadLink as 172.28.140.193:50010
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.createBlockOutputStream(DFSOutputStream.java:1460)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.nextBlockOutputStream(DFSOutputStream.java:1361)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.run(DFSOutputStream.java:588)
+2015-11-14 21:37:08,450 INFO [Thread-11] org.apache.hadoop.hdfs.DFSClient: Exception in createBlockOutputStream
+java.io.IOException: Bad connect ack with firstBadLink as 172.28.140.193:50010
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.createBlockOutputStream(DFSOutputStream.java:1460)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.nextBlockOutputStream(DFSOutputStream.java:1361)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.run(DFSOutputStream.java:588)
+2015-11-14 21:37:08,454 INFO [Thread-14] org.apache.hadoop.hdfs.DFSClient: Exception in createBlockOutputStream
+java.io.IOException: Bad connect ack with firstBadLink as 172.28.140.193:50010
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.createBlockOutputStream(DFSOutputStream.java:1460)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.nextBlockOutputStream(DFSOutputStream.java:1361)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.run(DFSOutputStream.java:588)
+2015-11-14 21:37:08,453 INFO [Thread-15] org.apache.hadoop.hdfs.DFSClient: Abandoning BP-1453324395-172.28.143.112-1446961098457:blk_1073749330_8550
+2015-11-14 21:37:08,454 INFO [Thread-11] org.apache.hadoop.hdfs.DFSClient: Abandoning BP-1453324395-172.28.143.112-1446961098457:blk_1073749331_8551
+2015-11-14 21:37:08,454 INFO [Thread-14] org.apache.hadoop.hdfs.DFSClient: Abandoning BP-1453324395-172.28.143.112-1446961098457:blk_1073749328_8548
+2015-11-14 21:37:08,465 INFO [Thread-16] org.apache.hadoop.hdfs.DFSClient: Excluding datanode 172.28.140.193:50010
+2015-11-14 21:37:08,472 INFO [Thread-11] org.apache.hadoop.hdfs.DFSClient: Excluding datanode 172.28.140.193:50010
+2015-11-14 21:37:08,472 INFO [Thread-14] org.apache.hadoop.hdfs.DFSClient: Excluding datanode 172.28.140.193:50010
+2015-11-14 21:37:08,472 INFO [Thread-15] org.apache.hadoop.hdfs.DFSClient: Excluding datanode 172.28.140.193:50010
+2015-11-14 21:37:08,583 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 720003 of <1000000000, 1500000000>
+2015-11-14 21:37:08,635 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 840003 of <1000000000, 1500000000>
+2015-11-14 21:37:08,660 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 960003 of <1000000000, 1500000000>
+2015-11-14 21:37:08,695 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 1080003 of <1000000000, 1500000000>
+2015-11-14 21:37:08,731 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 1200003 of <1000000000, 1500000000>
+2015-11-14 21:37:08,776 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 1320003 of <1000000000, 1500000000>
+2015-11-14 21:37:08,805 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 1440003 of <1000000000, 1500000000>
+2015-11-14 21:37:08,836 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 1560003 of <1000000000, 1500000000>
+2015-11-14 21:37:08,873 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 1680003 of <1000000000, 1500000000>
+2015-11-14 21:37:08,905 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 1800003 of <1000000000, 1500000000>
+2015-11-14 21:37:08,941 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 1920003 of <1000000000, 1500000000>
+2015-11-14 21:37:08,974 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 2040003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,013 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 2160003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,050 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 2280003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,082 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 2400003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,122 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 2520003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,151 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 2640003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,185 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 2760003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,223 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 2880003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,250 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 3000003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,288 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 3120003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,318 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 3240003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,353 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 3360003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,394 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 3480003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,419 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 3600003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,447 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 3720003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,481 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 3840003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,514 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 3960003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,549 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 4080003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,582 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 4200003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,614 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 4320003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,645 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 4440003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,678 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 4560003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,716 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 4680003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,744 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 4800003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,778 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 4920003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,811 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 5040003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,841 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 5160003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,873 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 5280003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,903 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 5400003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,936 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 5520003 of <1000000000, 1500000000>
+2015-11-14 21:37:09,972 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 5640003 of <1000000000, 1500000000>
+2015-11-14 21:37:10,004 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 5760003 of <1000000000, 1500000000>
+2015-11-14 21:37:10,037 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 5880003 of <1000000000, 1500000000>
+2015-11-14 21:37:10,418 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 6000003 of <1000000000, 1500000000>
+2015-11-14 21:37:10,447 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 6120003 of <1000000000, 1500000000>
+2015-11-14 21:37:10,471 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 6240003 of <1000000000, 1500000000>
+2015-11-14 21:37:10,496 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 6360003 of <1000000000, 1500000000>
+2015-11-14 21:37:10,520 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 6480003 of <1000000000, 1500000000>
+2015-11-14 21:37:10,546 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 6600003 of <1000000000, 1500000000>
+2015-11-14 21:37:10,570 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 6720003 of <1000000000, 1500000000>
+2015-11-14 21:37:10,594 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 6840003 of <1000000000, 1500000000>
+2015-11-14 21:37:10,619 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 6960003 of <1000000000, 1500000000>
+2015-11-14 21:37:10,648 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 7080003 of <1000000000, 1500000000>
+2015-11-14 21:37:10,677 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 7200003 of <1000000000, 1500000000>
+2015-11-14 21:37:10,706 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 7320003 of <1000000000, 1500000000>
+2015-11-14 21:37:10,735 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 7440003 of <1000000000, 1500000000>
+2015-11-14 21:37:10,764 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 7560003 of <1000000000, 1500000000>
+2015-11-14 21:37:10,788 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 7680003 of <1000000000, 1500000000>
+2015-11-14 21:37:10,811 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 7800003 of <1000000000, 1500000000>
+2015-11-14 21:37:10,835 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 7920003 of <1000000000, 1500000000>
+2015-11-14 21:37:10,863 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 8040003 of <1000000000, 1500000000>
+2015-11-14 21:37:10,904 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 8160003 of <1000000000, 1500000000>
+2015-11-14 21:37:11,491 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 8280003 of <1000000000, 1500000000>
+2015-11-14 21:37:11,524 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 8400003 of <1000000000, 1500000000>
+2015-11-14 21:37:11,557 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 8520003 of <1000000000, 1500000000>
+2015-11-14 21:37:11,586 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 8640003 of <1000000000, 1500000000>
+2015-11-14 21:37:11,618 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 8760003 of <1000000000, 1500000000>
+2015-11-14 21:37:11,648 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 8880003 of <1000000000, 1500000000>
+2015-11-14 21:37:11,681 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 9000003 of <1000000000, 1500000000>
+2015-11-14 21:37:11,711 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 9120003 of <1000000000, 1500000000>
+2015-11-14 21:37:11,741 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 9240003 of <1000000000, 1500000000>
+2015-11-14 21:37:11,772 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 9360003 of <1000000000, 1500000000>
+2015-11-14 21:37:11,804 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 9480003 of <1000000000, 1500000000>
+2015-11-14 21:37:11,834 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 9600003 of <1000000000, 1500000000>
+2015-11-14 21:37:11,865 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 9720003 of <1000000000, 1500000000>
+2015-11-14 21:37:11,896 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 9840003 of <1000000000, 1500000000>
+2015-11-14 21:37:11,928 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 9960003 of <1000000000, 1500000000>
+2015-11-14 21:37:11,957 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 10080003 of <1000000000, 1500000000>
+2015-11-14 21:37:11,989 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 10200003 of <1000000000, 1500000000>
+2015-11-14 21:37:12,020 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 10320003 of <1000000000, 1500000000>
+2015-11-14 21:37:12,053 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 10440003 of <1000000000, 1500000000>
+2015-11-14 21:37:12,084 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 10560003 of <1000000000, 1500000000>
+2015-11-14 21:37:12,114 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 10680003 of <1000000000, 1500000000>
+2015-11-14 21:37:12,145 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 10800003 of <1000000000, 1500000000>
+2015-11-14 21:37:12,176 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 10920003 of <1000000000, 1500000000>
+2015-11-14 21:37:12,206 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 11040003 of <1000000000, 1500000000>
+2015-11-14 21:37:12,237 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 11160003 of <1000000000, 1500000000>
+2015-11-14 21:37:12,269 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 11280003 of <1000000000, 1500000000>
+2015-11-14 21:37:12,304 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 11400003 of <1000000000, 1500000000>
+2015-11-14 21:37:12,336 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 11520003 of <1000000000, 1500000000>
+2015-11-14 21:37:12,371 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 11640003 of <1000000000, 1500000000>
+2015-11-14 21:37:12,440 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 11760003 of <1000000000, 1500000000>
+2015-11-14 21:37:12,515 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 11880003 of <1000000000, 1500000000>
+2015-11-14 21:37:12,540 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 12000003 of <1000000000, 1500000000>
+2015-11-14 21:37:12,568 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 12120003 of <1000000000, 1500000000>
+2015-11-14 21:37:12,593 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 12240003 of <1000000000, 1500000000>
+2015-11-14 21:37:12,617 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 12360003 of <1000000000, 1500000000>
+2015-11-14 21:37:12,715 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 12480003 of <1000000000, 1500000000>
+2015-11-14 21:37:12,773 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 12600003 of <1000000000, 1500000000>
+2015-11-14 21:37:12,798 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 12720003 of <1000000000, 1500000000>
+2015-11-14 21:37:12,822 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 12840003 of <1000000000, 1500000000>
+2015-11-14 21:37:12,851 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 12960003 of <1000000000, 1500000000>
+2015-11-14 21:37:12,893 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 13080003 of <1000000000, 1500000000>
+2015-11-14 21:37:12,933 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 13200003 of <1000000000, 1500000000>
+2015-11-14 21:37:12,973 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 13320003 of <1000000000, 1500000000>
+2015-11-14 21:37:13,630 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 13440003 of <1000000000, 1500000000>
+2015-11-14 21:37:13,665 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 13560003 of <1000000000, 1500000000>
+2015-11-14 21:37:13,893 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 13680003 of <1000000000, 1500000000>
+2015-11-14 21:37:13,926 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 13800003 of <1000000000, 1500000000>
+2015-11-14 21:37:13,963 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 13920003 of <1000000000, 1500000000>
+2015-11-14 21:37:14,137 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 14040003 of <1000000000, 1500000000>
+2015-11-14 21:37:14,172 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 14160003 of <1000000000, 1500000000>
+2015-11-14 21:37:14,202 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 14280003 of <1000000000, 1500000000>
+2015-11-14 21:37:14,236 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 14400003 of <1000000000, 1500000000>
+2015-11-14 21:37:14,268 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 14520003 of <1000000000, 1500000000>
+2015-11-14 21:37:14,301 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 14640003 of <1000000000, 1500000000>
+2015-11-14 21:37:14,335 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 14760003 of <1000000000, 1500000000>
+2015-11-14 21:37:14,366 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 14880003 of <1000000000, 1500000000>
+2015-11-14 21:37:14,400 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 15000003 of <1000000000, 1500000000>
+2015-11-14 21:37:14,433 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 15120003 of <1000000000, 1500000000>
+2015-11-14 21:37:14,465 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 15240003 of <1000000000, 1500000000>
+2015-11-14 21:37:14,497 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 15360003 of <1000000000, 1500000000>
+2015-11-14 21:37:14,531 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 15480003 of <1000000000, 1500000000>
+2015-11-14 21:37:14,564 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 15600003 of <1000000000, 1500000000>
+2015-11-14 21:37:14,597 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 15720003 of <1000000000, 1500000000>
+2015-11-14 21:37:14,629 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 15840003 of <1000000000, 1500000000>
+2015-11-14 21:37:14,668 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 15960003 of <1000000000, 1500000000>
+2015-11-14 21:37:14,692 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 16080003 of <1000000000, 1500000000>
+2015-11-14 21:37:14,717 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 16200003 of <1000000000, 1500000000>
+2015-11-14 21:37:14,741 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 16320003 of <1000000000, 1500000000>
+2015-11-14 21:37:14,765 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 16440003 of <1000000000, 1500000000>
+2015-11-14 21:37:14,793 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 16560003 of <1000000000, 1500000000>
+2015-11-14 21:37:15,369 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 16680003 of <1000000000, 1500000000>
+2015-11-14 21:37:15,447 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 16800003 of <1000000000, 1500000000>
+2015-11-14 21:37:15,521 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 16920003 of <1000000000, 1500000000>
+2015-11-14 21:37:15,590 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 17040003 of <1000000000, 1500000000>
+2015-11-14 21:37:15,659 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 17160003 of <1000000000, 1500000000>
+2015-11-14 21:37:15,734 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 17280003 of <1000000000, 1500000000>
+2015-11-14 21:37:15,822 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 17400003 of <1000000000, 1500000000>
+2015-11-14 21:37:15,902 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 17520003 of <1000000000, 1500000000>
+2015-11-14 21:37:15,984 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 17640003 of <1000000000, 1500000000>
+2015-11-14 21:37:16,055 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 17760003 of <1000000000, 1500000000>
+2015-11-14 21:37:16,130 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 17880003 of <1000000000, 1500000000>
+2015-11-14 21:37:16,205 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 18000003 of <1000000000, 1500000000>
+2015-11-14 21:37:16,344 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 18120003 of <1000000000, 1500000000>
+2015-11-14 21:37:16,446 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 18240003 of <1000000000, 1500000000>
+2015-11-14 21:37:16,592 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 18360003 of <1000000000, 1500000000>
+2015-11-14 21:37:16,746 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 18480003 of <1000000000, 1500000000>
+2015-11-14 21:37:16,906 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 18600003 of <1000000000, 1500000000>
+2015-11-14 21:37:17,053 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 18720003 of <1000000000, 1500000000>
+2015-11-14 21:37:17,245 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 18840003 of <1000000000, 1500000000>
+2015-11-14 21:37:17,391 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 18960003 of <1000000000, 1500000000>
+2015-11-14 21:37:17,572 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 19080003 of <1000000000, 1500000000>
+2015-11-14 21:37:17,769 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 19200003 of <1000000000, 1500000000>
+2015-11-14 21:37:17,968 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 19320003 of <1000000000, 1500000000>
+2015-11-14 21:37:18,565 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 19440003 of <1000000000, 1500000000>
+2015-11-14 21:37:18,620 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 19560003 of <1000000000, 1500000000>
+2015-11-14 21:37:18,982 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 19680003 of <1000000000, 1500000000>
+2015-11-14 21:37:19,008 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 19800003 of <1000000000, 1500000000>
+2015-11-14 21:37:19,035 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 19920003 of <1000000000, 1500000000>
+2015-11-14 21:37:19,145 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 20040003 of <1000000000, 1500000000>
+2015-11-14 21:37:19,304 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 20160003 of <1000000000, 1500000000>
+2015-11-14 21:37:19,436 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 20280003 of <1000000000, 1500000000>
+2015-11-14 21:37:19,638 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 20400003 of <1000000000, 1500000000>
+2015-11-14 21:37:19,804 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 20520003 of <1000000000, 1500000000>
+2015-11-14 21:37:20,037 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 20640003 of <1000000000, 1500000000>
+2015-11-14 21:37:20,207 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 20760003 of <1000000000, 1500000000>
+2015-11-14 21:37:20,999 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 20880003 of <1000000000, 1500000000>
+2015-11-14 21:37:21,024 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 21000003 of <1000000000, 1500000000>
+2015-11-14 21:37:21,164 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 21120003 of <1000000000, 1500000000>
+2015-11-14 21:37:21,357 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 21240003 of <1000000000, 1500000000>
+2015-11-14 21:37:21,556 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 21360003 of <1000000000, 1500000000>
+2015-11-14 21:37:21,862 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 21480003 of <1000000000, 1500000000>
+2015-11-14 21:37:22,069 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 21600003 of <1000000000, 1500000000>
+2015-11-14 21:37:22,280 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 21720003 of <1000000000, 1500000000>
+2015-11-14 21:37:22,468 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 21840003 of <1000000000, 1500000000>
+2015-11-14 21:37:22,652 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 21960003 of <1000000000, 1500000000>
+2015-11-14 21:37:22,901 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 22080003 of <1000000000, 1500000000>
+2015-11-14 21:37:24,099 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 22200003 of <1000000000, 1500000000>
+2015-11-14 21:37:24,323 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 22320003 of <1000000000, 1500000000>
+2015-11-14 21:37:24,431 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 22440003 of <1000000000, 1500000000>
+2015-11-14 21:37:24,636 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 22560003 of <1000000000, 1500000000>
+2015-11-14 21:37:24,961 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 22680003 of <1000000000, 1500000000>
+2015-11-14 21:37:25,431 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 22800003 of <1000000000, 1500000000>
+2015-11-14 21:37:26,400 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 22920003 of <1000000000, 1500000000>
+2015-11-14 21:37:26,599 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 23040003 of <1000000000, 1500000000>
+2015-11-14 21:37:26,782 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 23160003 of <1000000000, 1500000000>
+2015-11-14 21:37:26,961 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 23280003 of <1000000000, 1500000000>
+2015-11-14 21:37:27,385 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 23400003 of <1000000000, 1500000000>
+2015-11-14 21:37:27,710 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 23520003 of <1000000000, 1500000000>
+2015-11-14 21:37:27,956 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 23640003 of <1000000000, 1500000000>
+2015-11-14 21:37:28,590 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 23760003 of <1000000000, 1500000000>
+2015-11-14 21:37:29,295 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 23880003 of <1000000000, 1500000000>
+2015-11-14 21:37:29,455 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 24000003 of <1000000000, 1500000000>
+2015-11-14 21:37:29,630 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 24120003 of <1000000000, 1500000000>
+2015-11-14 21:37:29,866 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 24240003 of <1000000000, 1500000000>
+2015-11-14 21:37:30,075 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 24360003 of <1000000000, 1500000000>
+2015-11-14 21:37:30,307 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 24480003 of <1000000000, 1500000000>
+2015-11-14 21:37:30,553 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 24600003 of <1000000000, 1500000000>
+2015-11-14 21:37:31,372 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 24720003 of <1000000000, 1500000000>
+2015-11-14 21:37:32,086 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 24840003 of <1000000000, 1500000000>
+2015-11-14 21:37:32,116 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 24960003 of <1000000000, 1500000000>
+2015-11-14 21:37:32,141 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 25080003 of <1000000000, 1500000000>
+2015-11-14 21:37:32,397 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 25200003 of <1000000000, 1500000000>
+2015-11-14 21:37:32,684 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 25320003 of <1000000000, 1500000000>
+2015-11-14 21:37:33,982 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 25440003 of <1000000000, 1500000000>
+2015-11-14 21:37:34,344 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 25560003 of <1000000000, 1500000000>
+2015-11-14 21:37:34,442 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 25680003 of <1000000000, 1500000000>
+2015-11-14 21:37:34,632 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 25800003 of <1000000000, 1500000000>
+2015-11-14 21:37:34,947 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 25920003 of <1000000000, 1500000000>
+2015-11-14 21:37:35,229 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 26040003 of <1000000000, 1500000000>
+2015-11-14 21:37:35,464 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 26160003 of <1000000000, 1500000000>
+2015-11-14 21:37:35,744 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 26280003 of <1000000000, 1500000000>
+2015-11-14 21:37:36,631 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 26400003 of <1000000000, 1500000000>
+2015-11-14 21:37:36,675 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 26520003 of <1000000000, 1500000000>
+2015-11-14 21:37:36,700 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 26640003 of <1000000000, 1500000000>
+2015-11-14 21:37:36,725 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 26760003 of <1000000000, 1500000000>
+2015-11-14 21:37:36,770 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 26880003 of <1000000000, 1500000000>
+2015-11-14 21:37:36,985 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 27000003 of <1000000000, 1500000000>
+2015-11-14 21:37:37,236 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 27120003 of <1000000000, 1500000000>
+2015-11-14 21:37:37,426 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 27240003 of <1000000000, 1500000000>
+2015-11-14 21:37:37,652 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 27360003 of <1000000000, 1500000000>
+2015-11-14 21:37:38,076 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 27480003 of <1000000000, 1500000000>
+2015-11-14 21:37:39,302 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 27600003 of <1000000000, 1500000000>
+2015-11-14 21:37:39,405 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 27720003 of <1000000000, 1500000000>
+2015-11-14 21:37:39,665 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 27840003 of <1000000000, 1500000000>
+2015-11-14 21:37:39,878 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 27960003 of <1000000000, 1500000000>
+2015-11-14 21:37:40,160 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 28080003 of <1000000000, 1500000000>
+2015-11-14 21:37:40,420 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 28200003 of <1000000000, 1500000000>
+2015-11-14 21:37:40,737 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 28320003 of <1000000000, 1500000000>
+2015-11-14 21:37:41,426 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 28440003 of <1000000000, 1500000000>
+2015-11-14 21:37:41,512 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 28560003 of <1000000000, 1500000000>
+2015-11-14 21:37:41,886 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 28680003 of <1000000000, 1500000000>
+2015-11-14 21:37:42,239 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 28800003 of <1000000000, 1500000000>
+2015-11-14 21:37:42,481 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 28920003 of <1000000000, 1500000000>
+2015-11-14 21:37:42,918 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 29040003 of <1000000000, 1500000000>
+2015-11-14 21:37:43,978 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 29160003 of <1000000000, 1500000000>
+2015-11-14 21:37:44,253 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 29280003 of <1000000000, 1500000000>
+2015-11-14 21:37:44,472 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 29400003 of <1000000000, 1500000000>
+2015-11-14 21:37:44,740 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 29520003 of <1000000000, 1500000000>
+2015-11-14 21:37:45,030 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 29640003 of <1000000000, 1500000000>
+2015-11-14 21:37:45,409 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 29760003 of <1000000000, 1500000000>
+2015-11-14 21:37:45,762 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 29880003 of <1000000000, 1500000000>
+2015-11-14 21:37:46,206 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 30000003 of <1000000000, 1500000000>
+2015-11-14 21:37:46,964 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 30120003 of <1000000000, 1500000000>
+2015-11-14 21:37:47,405 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 30240003 of <1000000000, 1500000000>
+2015-11-14 21:37:47,762 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 30360003 of <1000000000, 1500000000>
+2015-11-14 21:37:48,141 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 30480003 of <1000000000, 1500000000>
+2015-11-14 21:37:49,099 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 30600003 of <1000000000, 1500000000>
+2015-11-14 21:37:49,695 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 30720003 of <1000000000, 1500000000>
+2015-11-14 21:37:50,152 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 30840003 of <1000000000, 1500000000>
+2015-11-14 21:37:50,779 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 30960003 of <1000000000, 1500000000>
+2015-11-14 21:37:51,560 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 31080003 of <1000000000, 1500000000>
+2015-11-14 21:37:51,985 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 31200003 of <1000000000, 1500000000>
+2015-11-14 21:37:52,578 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 31320003 of <1000000000, 1500000000>
+2015-11-14 21:37:52,899 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 31440003 of <1000000000, 1500000000>
+2015-11-14 21:37:53,300 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 31560003 of <1000000000, 1500000000>
+2015-11-14 21:37:54,300 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 31680003 of <1000000000, 1500000000>
+2015-11-14 21:37:54,515 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 31800003 of <1000000000, 1500000000>
+2015-11-14 21:37:55,298 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 31920003 of <1000000000, 1500000000>
+2015-11-14 21:37:55,832 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 32040003 of <1000000000, 1500000000>
+2015-11-14 21:37:56,209 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 32160003 of <1000000000, 1500000000>
+2015-11-14 21:37:56,468 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 32280003 of <1000000000, 1500000000>
+2015-11-14 21:37:57,294 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 32400003 of <1000000000, 1500000000>
+2015-11-14 21:37:57,620 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 32520003 of <1000000000, 1500000000>
+2015-11-14 21:37:58,393 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 32640003 of <1000000000, 1500000000>
+2015-11-14 21:37:59,433 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 32760003 of <1000000000, 1500000000>
+2015-11-14 21:37:59,534 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 32880003 of <1000000000, 1500000000>
+2015-11-14 21:38:00,198 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 33000003 of <1000000000, 1500000000>
+2015-11-14 21:38:00,491 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 33120003 of <1000000000, 1500000000>
+2015-11-14 21:38:00,748 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 33240003 of <1000000000, 1500000000>
+2015-11-14 21:38:00,991 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 33360003 of <1000000000, 1500000000>
+2015-11-14 21:38:01,293 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 33480003 of <1000000000, 1500000000>
+2015-11-14 21:38:01,767 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 33600003 of <1000000000, 1500000000>
+2015-11-14 21:38:01,808 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 33720003 of <1000000000, 1500000000>
+2015-11-14 21:38:02,020 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 33840003 of <1000000000, 1500000000>
+2015-11-14 21:38:02,272 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 33960003 of <1000000000, 1500000000>
+2015-11-14 21:38:02,568 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 34080003 of <1000000000, 1500000000>
+2015-11-14 21:38:02,724 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 34200003 of <1000000000, 1500000000>
+2015-11-14 21:38:03,387 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 34320003 of <1000000000, 1500000000>
+2015-11-14 21:38:04,513 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 34440003 of <1000000000, 1500000000>
+2015-11-14 21:38:04,717 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 34560003 of <1000000000, 1500000000>
+2015-11-14 21:38:04,957 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 34680003 of <1000000000, 1500000000>
+2015-11-14 21:38:05,362 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 34800003 of <1000000000, 1500000000>
+2015-11-14 21:38:05,830 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 34920003 of <1000000000, 1500000000>
+2015-11-14 21:38:06,268 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 35040003 of <1000000000, 1500000000>
+2015-11-14 21:38:06,668 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 35160003 of <1000000000, 1500000000>
+2015-11-14 21:38:07,383 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 35280003 of <1000000000, 1500000000>
+2015-11-14 21:38:07,567 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 35400003 of <1000000000, 1500000000>
+2015-11-14 21:38:08,628 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 35520003 of <1000000000, 1500000000>
+2015-11-14 21:38:09,773 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 35640003 of <1000000000, 1500000000>
+2015-11-14 21:38:09,930 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 35760003 of <1000000000, 1500000000>
+2015-11-14 21:38:10,337 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 35880003 of <1000000000, 1500000000>
+2015-11-14 21:38:10,598 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 36000003 of <1000000000, 1500000000>
+2015-11-14 21:38:11,038 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 36120003 of <1000000000, 1500000000>
+2015-11-14 21:38:11,474 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 36240003 of <1000000000, 1500000000>
+2015-11-14 21:38:12,294 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 36360003 of <1000000000, 1500000000>
+2015-11-14 21:38:12,695 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 36480003 of <1000000000, 1500000000>
+2015-11-14 21:38:13,084 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 36600003 of <1000000000, 1500000000>
+2015-11-14 21:38:13,793 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 36720003 of <1000000000, 1500000000>
+2015-11-14 21:38:14,124 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 36840003 of <1000000000, 1500000000>
+2015-11-14 21:38:14,420 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 36960003 of <1000000000, 1500000000>
+2015-11-14 21:38:15,171 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 37080003 of <1000000000, 1500000000>
+2015-11-14 21:38:15,585 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 37200003 of <1000000000, 1500000000>
+2015-11-14 21:38:16,473 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 37320003 of <1000000000, 1500000000>
+2015-11-14 21:38:16,839 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 37440003 of <1000000000, 1500000000>
+2015-11-14 21:38:17,908 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 37560003 of <1000000000, 1500000000>
+2015-11-14 21:38:17,950 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 37680003 of <1000000000, 1500000000>
+2015-11-14 21:38:18,217 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 37800003 of <1000000000, 1500000000>
+2015-11-14 21:38:19,496 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 37920003 of <1000000000, 1500000000>
+2015-11-14 21:38:19,636 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 38040003 of <1000000000, 1500000000>
+2015-11-14 21:38:19,792 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 38160003 of <1000000000, 1500000000>
+2015-11-14 21:38:20,375 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 38280003 of <1000000000, 1500000000>
+2015-11-14 21:38:21,177 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 38400003 of <1000000000, 1500000000>
+2015-11-14 21:38:21,441 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 38520003 of <1000000000, 1500000000>
+2015-11-14 21:38:21,980 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 38640003 of <1000000000, 1500000000>
+2015-11-14 21:38:22,840 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 38760003 of <1000000000, 1500000000>
+2015-11-14 21:38:22,865 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 38880003 of <1000000000, 1500000000>
+2015-11-14 21:38:23,799 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 39000003 of <1000000000, 1500000000>
+2015-11-14 21:38:24,691 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 39120003 of <1000000000, 1500000000>
+2015-11-14 21:38:24,835 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 39240003 of <1000000000, 1500000000>
+2015-11-14 21:38:25,158 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 39360003 of <1000000000, 1500000000>
+2015-11-14 21:38:25,657 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 39480003 of <1000000000, 1500000000>
+2015-11-14 21:38:26,136 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 39600003 of <1000000000, 1500000000>
+2015-11-14 21:38:26,647 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 39720003 of <1000000000, 1500000000>
+2015-11-14 21:38:27,597 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 39840003 of <1000000000, 1500000000>
+2015-11-14 21:38:27,706 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 39960003 of <1000000000, 1500000000>
+2015-11-14 21:38:28,457 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 40080003 of <1000000000, 1500000000>
+2015-11-14 21:38:29,674 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 40200003 of <1000000000, 1500000000>
+2015-11-14 21:38:29,795 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 40320003 of <1000000000, 1500000000>
+2015-11-14 21:38:29,908 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 40440003 of <1000000000, 1500000000>
+2015-11-14 21:38:30,161 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 40560003 of <1000000000, 1500000000>
+2015-11-14 21:38:30,636 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 40680003 of <1000000000, 1500000000>
+2015-11-14 21:38:31,046 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 40800003 of <1000000000, 1500000000>
+2015-11-14 21:38:31,543 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 40920003 of <1000000000, 1500000000>
+2015-11-14 21:38:31,994 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 41040003 of <1000000000, 1500000000>
+2015-11-14 21:38:32,701 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 41160003 of <1000000000, 1500000000>
+2015-11-14 21:38:32,829 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 41280003 of <1000000000, 1500000000>
+2015-11-14 21:38:33,304 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 41400003 of <1000000000, 1500000000>
+2015-11-14 21:38:33,782 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 41520003 of <1000000000, 1500000000>
+2015-11-14 21:38:34,461 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 41640003 of <1000000000, 1500000000>
+2015-11-14 21:38:34,963 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 41760003 of <1000000000, 1500000000>
+2015-11-14 21:38:35,452 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 41880003 of <1000000000, 1500000000>
+2015-11-14 21:38:35,930 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 42000003 of <1000000000, 1500000000>
+2015-11-14 21:38:36,410 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 42120003 of <1000000000, 1500000000>
+2015-11-14 21:38:36,891 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 42240003 of <1000000000, 1500000000>
+2015-11-14 21:38:37,337 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 42360003 of <1000000000, 1500000000>
+2015-11-14 21:38:38,320 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 42480003 of <1000000000, 1500000000>
+2015-11-14 21:38:38,420 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 42600003 of <1000000000, 1500000000>
+2015-11-14 21:38:39,698 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 42720003 of <1000000000, 1500000000>
+2015-11-14 21:38:39,866 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 42840003 of <1000000000, 1500000000>
+2015-11-14 21:38:40,019 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 42960003 of <1000000000, 1500000000>
+2015-11-14 21:38:40,418 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 43080003 of <1000000000, 1500000000>
+2015-11-14 21:38:40,961 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 43200003 of <1000000000, 1500000000>
+2015-11-14 21:38:41,404 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 43320003 of <1000000000, 1500000000>
+2015-11-14 21:38:41,913 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 43440003 of <1000000000, 1500000000>
+2015-11-14 21:38:42,620 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 43560003 of <1000000000, 1500000000>
+2015-11-14 21:38:43,411 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 43680003 of <1000000000, 1500000000>
+2015-11-14 21:38:43,474 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 43800003 of <1000000000, 1500000000>
+2015-11-14 21:38:43,920 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 43920003 of <1000000000, 1500000000>
+2015-11-14 21:38:45,291 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 44040003 of <1000000000, 1500000000>
+2015-11-14 21:38:45,591 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 44160003 of <1000000000, 1500000000>
+2015-11-14 21:38:45,986 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 44280003 of <1000000000, 1500000000>
+2015-11-14 21:38:46,356 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 44400003 of <1000000000, 1500000000>
+2015-11-14 21:38:46,787 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 44520003 of <1000000000, 1500000000>
+2015-11-14 21:38:47,225 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 44640003 of <1000000000, 1500000000>
+2015-11-14 21:38:47,673 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 44760003 of <1000000000, 1500000000>
+2015-11-14 21:38:48,170 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 44880003 of <1000000000, 1500000000>
+2015-11-14 21:38:48,826 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 45000003 of <1000000000, 1500000000>
+2015-11-14 21:38:49,327 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 45120003 of <1000000000, 1500000000>
+2015-11-14 21:38:49,732 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 45240003 of <1000000000, 1500000000>
+2015-11-14 21:38:49,999 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 45360003 of <1000000000, 1500000000>
+2015-11-14 21:38:50,260 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 45480003 of <1000000000, 1500000000>
+2015-11-14 21:38:50,622 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 45600003 of <1000000000, 1500000000>
+2015-11-14 21:38:51,035 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 45720003 of <1000000000, 1500000000>
+2015-11-14 21:38:51,466 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 45840003 of <1000000000, 1500000000>
+2015-11-14 21:38:51,844 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 45960003 of <1000000000, 1500000000>
+2015-11-14 21:38:52,510 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 46080003 of <1000000000, 1500000000>
+2015-11-14 21:38:53,349 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 46200003 of <1000000000, 1500000000>
+2015-11-14 21:38:53,438 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 46320003 of <1000000000, 1500000000>
+2015-11-14 21:38:54,824 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 46440003 of <1000000000, 1500000000>
+2015-11-14 21:38:55,257 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 46560003 of <1000000000, 1500000000>
+2015-11-14 21:38:55,747 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 46680003 of <1000000000, 1500000000>
+2015-11-14 21:38:56,288 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 46800003 of <1000000000, 1500000000>
+2015-11-14 21:38:56,825 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 46920003 of <1000000000, 1500000000>
+2015-11-14 21:38:57,341 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 47040003 of <1000000000, 1500000000>
+2015-11-14 21:38:57,799 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 47160003 of <1000000000, 1500000000>
+2015-11-14 21:38:58,354 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 47280003 of <1000000000, 1500000000>
+2015-11-14 21:38:58,977 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 47400003 of <1000000000, 1500000000>
+2015-11-14 21:39:00,354 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 47520003 of <1000000000, 1500000000>
+2015-11-14 21:39:00,495 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 47640003 of <1000000000, 1500000000>
+2015-11-14 21:39:01,110 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 47760003 of <1000000000, 1500000000>
+2015-11-14 21:39:01,822 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 47880003 of <1000000000, 1500000000>
+2015-11-14 21:39:02,369 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 48000003 of <1000000000, 1500000000>
+2015-11-14 21:39:02,912 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 48120003 of <1000000000, 1500000000>
+2015-11-14 21:39:03,390 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 48240003 of <1000000000, 1500000000>
+2015-11-14 21:39:04,186 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 48360003 of <1000000000, 1500000000>
+2015-11-14 21:39:05,401 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 48480003 of <1000000000, 1500000000>
+2015-11-14 21:39:07,578 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 48600003 of <1000000000, 1500000000>
+2015-11-14 21:39:08,130 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 48720003 of <1000000000, 1500000000>
+2015-11-14 21:39:08,656 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 48840003 of <1000000000, 1500000000>
+2015-11-14 21:39:09,183 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 48960003 of <1000000000, 1500000000>
+2015-11-14 21:39:10,058 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 49080003 of <1000000000, 1500000000>
+2015-11-14 21:39:10,677 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 49200003 of <1000000000, 1500000000>
+2015-11-14 21:39:11,237 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 49320003 of <1000000000, 1500000000>
+2015-11-14 21:39:11,820 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 49440003 of <1000000000, 1500000000>
+2015-11-14 21:39:12,303 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 49560003 of <1000000000, 1500000000>
+2015-11-14 21:39:12,871 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 49680003 of <1000000000, 1500000000>
+2015-11-14 21:39:13,714 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 49800003 of <1000000000, 1500000000>
+2015-11-14 21:39:13,974 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 49920003 of <1000000000, 1500000000>
+2015-11-14 21:39:15,335 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 50040003 of <1000000000, 1500000000>
+2015-11-14 21:39:15,472 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 50160003 of <1000000000, 1500000000>
+2015-11-14 21:39:15,600 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 50280003 of <1000000000, 1500000000>
+2015-11-14 21:39:15,941 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 50400003 of <1000000000, 1500000000>
+2015-11-14 21:39:16,387 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 50520003 of <1000000000, 1500000000>
+2015-11-14 21:39:16,866 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 50640003 of <1000000000, 1500000000>
+2015-11-14 21:39:17,346 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 50760003 of <1000000000, 1500000000>
+2015-11-14 21:39:17,837 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 50880003 of <1000000000, 1500000000>
+2015-11-14 21:39:18,343 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 51000003 of <1000000000, 1500000000>
+2015-11-14 21:39:18,848 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 51120003 of <1000000000, 1500000000>
+2015-11-14 21:39:19,382 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 51240003 of <1000000000, 1500000000>
+2015-11-14 21:39:19,885 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 51360003 of <1000000000, 1500000000>
+2015-11-14 21:39:20,265 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 51480003 of <1000000000, 1500000000>
+2015-11-14 21:39:20,540 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 51600003 of <1000000000, 1500000000>
+2015-11-14 21:39:21,042 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 51720003 of <1000000000, 1500000000>
+2015-11-14 21:39:21,539 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 51840003 of <1000000000, 1500000000>
+2015-11-14 21:39:22,265 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 51960003 of <1000000000, 1500000000>
+2015-11-14 21:39:22,459 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 52080003 of <1000000000, 1500000000>
+2015-11-14 21:39:22,968 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 52200003 of <1000000000, 1500000000>
+2015-11-14 21:39:23,489 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 52320003 of <1000000000, 1500000000>
+2015-11-14 21:39:24,198 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 52440003 of <1000000000, 1500000000>
+2015-11-14 21:39:24,463 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 52560003 of <1000000000, 1500000000>
+2015-11-14 21:39:25,699 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 52680003 of <1000000000, 1500000000>
+2015-11-14 21:39:25,833 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 52800003 of <1000000000, 1500000000>
+2015-11-14 21:39:26,319 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 52920003 of <1000000000, 1500000000>
+2015-11-14 21:39:26,765 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 53040003 of <1000000000, 1500000000>
+2015-11-14 21:39:27,620 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 53160003 of <1000000000, 1500000000>
+2015-11-14 21:39:27,806 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 53280003 of <1000000000, 1500000000>
+2015-11-14 21:39:28,175 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 53400003 of <1000000000, 1500000000>
+2015-11-14 21:39:28,598 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 53520003 of <1000000000, 1500000000>
+2015-11-14 21:39:29,261 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 53640003 of <1000000000, 1500000000>
+2015-11-14 21:39:29,584 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 53760003 of <1000000000, 1500000000>
+2015-11-14 21:39:30,144 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 53880003 of <1000000000, 1500000000>
+2015-11-14 21:39:30,555 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 54000003 of <1000000000, 1500000000>
+2015-11-14 21:39:31,083 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 54120003 of <1000000000, 1500000000>
+2015-11-14 21:39:31,682 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 54240003 of <1000000000, 1500000000>
+2015-11-14 21:39:32,245 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 54360003 of <1000000000, 1500000000>
+2015-11-14 21:39:32,785 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 54480003 of <1000000000, 1500000000>
+2015-11-14 21:39:33,239 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 54600003 of <1000000000, 1500000000>
+2015-11-14 21:39:33,722 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 54720003 of <1000000000, 1500000000>
+2015-11-14 21:39:34,603 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 54840003 of <1000000000, 1500000000>
+2015-11-14 21:39:34,700 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 54960003 of <1000000000, 1500000000>
+2015-11-14 21:39:35,579 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 55080003 of <1000000000, 1500000000>
+2015-11-14 21:39:35,710 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 55200003 of <1000000000, 1500000000>
+2015-11-14 21:39:36,426 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 55320003 of <1000000000, 1500000000>
+2015-11-14 21:39:36,965 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 55440003 of <1000000000, 1500000000>
+2015-11-14 21:39:37,416 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 55560003 of <1000000000, 1500000000>
+2015-11-14 21:39:37,931 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 55680003 of <1000000000, 1500000000>
+2015-11-14 21:39:38,501 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 55800003 of <1000000000, 1500000000>
+2015-11-14 21:39:39,012 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 55920003 of <1000000000, 1500000000>
+2015-11-14 21:39:39,933 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 56040003 of <1000000000, 1500000000>
+2015-11-14 21:39:41,103 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 56160003 of <1000000000, 1500000000>
+2015-11-14 21:39:41,391 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 56280003 of <1000000000, 1500000000>
+2015-11-14 21:39:41,790 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 56400003 of <1000000000, 1500000000>
+2015-11-14 21:39:42,214 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 56520003 of <1000000000, 1500000000>
+2015-11-14 21:39:42,644 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 56640003 of <1000000000, 1500000000>
+2015-11-14 21:39:43,293 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 56760003 of <1000000000, 1500000000>
+2015-11-14 21:39:43,782 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 56880003 of <1000000000, 1500000000>
+2015-11-14 21:39:44,302 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 57000003 of <1000000000, 1500000000>
+2015-11-14 21:39:44,834 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 57120003 of <1000000000, 1500000000>
+2015-11-14 21:39:45,964 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 57240003 of <1000000000, 1500000000>
+2015-11-14 21:39:46,012 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 57360003 of <1000000000, 1500000000>
+2015-11-14 21:39:46,201 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 57480003 of <1000000000, 1500000000>
+2015-11-14 21:39:46,558 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 57600003 of <1000000000, 1500000000>
+2015-11-14 21:39:46,923 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 57720003 of <1000000000, 1500000000>
+2015-11-14 21:39:47,338 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 57840003 of <1000000000, 1500000000>
+2015-11-14 21:39:47,702 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 57960003 of <1000000000, 1500000000>
+2015-11-14 21:39:48,140 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 58080003 of <1000000000, 1500000000>
+2015-11-14 21:39:48,545 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 58200003 of <1000000000, 1500000000>
+2015-11-14 21:39:48,974 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 58320003 of <1000000000, 1500000000>
+2015-11-14 21:39:51,302 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 58440003 of <1000000000, 1500000000>
+2015-11-14 21:39:51,546 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 58560003 of <1000000000, 1500000000>
+2015-11-14 21:39:51,875 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 58680003 of <1000000000, 1500000000>
+2015-11-14 21:39:52,259 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 58800003 of <1000000000, 1500000000>
+2015-11-14 21:39:52,618 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 58920003 of <1000000000, 1500000000>
+2015-11-14 21:39:53,015 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 59040003 of <1000000000, 1500000000>
+2015-11-14 21:39:53,428 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 59160003 of <1000000000, 1500000000>
+2015-11-14 21:39:53,795 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 59280003 of <1000000000, 1500000000>
+2015-11-14 21:39:54,208 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 59400003 of <1000000000, 1500000000>
+2015-11-14 21:39:54,643 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 59520003 of <1000000000, 1500000000>
+2015-11-14 21:39:56,090 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 59640003 of <1000000000, 1500000000>
+2015-11-14 21:39:56,195 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 59760003 of <1000000000, 1500000000>
+2015-11-14 21:39:56,540 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 59880003 of <1000000000, 1500000000>
+2015-11-14 21:39:56,972 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 60000003 of <1000000000, 1500000000>
+2015-11-14 21:39:57,451 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 60120003 of <1000000000, 1500000000>
+2015-11-14 21:39:58,030 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 60240003 of <1000000000, 1500000000>
+2015-11-14 21:39:58,494 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 60360003 of <1000000000, 1500000000>
+2015-11-14 21:39:58,908 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 60480003 of <1000000000, 1500000000>
+2015-11-14 21:39:59,395 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 60600003 of <1000000000, 1500000000>
+2015-11-14 21:39:59,840 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 60720003 of <1000000000, 1500000000>
+2015-11-14 21:40:00,663 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 60840003 of <1000000000, 1500000000>
+2015-11-14 21:40:01,267 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 60960003 of <1000000000, 1500000000>
+2015-11-14 21:40:01,296 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 61080003 of <1000000000, 1500000000>
+2015-11-14 21:40:01,817 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 61200003 of <1000000000, 1500000000>
+2015-11-14 21:40:02,262 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 61320003 of <1000000000, 1500000000>
+2015-11-14 21:40:02,784 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 61440003 of <1000000000, 1500000000>
+2015-11-14 21:40:03,360 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 61560003 of <1000000000, 1500000000>
+2015-11-14 21:40:03,911 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 61680003 of <1000000000, 1500000000>
+2015-11-14 21:40:04,434 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 61800003 of <1000000000, 1500000000>
+2015-11-14 21:40:04,918 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 61920003 of <1000000000, 1500000000>
+2015-11-14 21:40:05,716 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 62040003 of <1000000000, 1500000000>
+2015-11-14 21:40:05,881 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 62160003 of <1000000000, 1500000000>
+2015-11-14 21:40:06,476 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 62280003 of <1000000000, 1500000000>
+2015-11-14 21:40:06,944 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 62400003 of <1000000000, 1500000000>
+2015-11-14 21:40:07,480 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 62520003 of <1000000000, 1500000000>
+2015-11-14 21:40:07,931 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 62640003 of <1000000000, 1500000000>
+2015-11-14 21:40:08,443 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 62760003 of <1000000000, 1500000000>
+2015-11-14 21:40:08,950 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 62880003 of <1000000000, 1500000000>
+2015-11-14 21:40:09,493 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 63000003 of <1000000000, 1500000000>
+2015-11-14 21:40:10,021 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 63120003 of <1000000000, 1500000000>
+2015-11-14 21:40:11,791 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 63240003 of <1000000000, 1500000000>
+2015-11-14 21:40:12,182 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 63360003 of <1000000000, 1500000000>
+2015-11-14 21:40:12,629 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 63480003 of <1000000000, 1500000000>
+2015-11-14 21:40:13,079 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 63600003 of <1000000000, 1500000000>
+2015-11-14 21:40:13,563 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 63720003 of <1000000000, 1500000000>
+2015-11-14 21:40:14,077 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 63840003 of <1000000000, 1500000000>
+2015-11-14 21:40:14,583 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 63960003 of <1000000000, 1500000000>
+2015-11-14 21:40:15,214 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 64080003 of <1000000000, 1500000000>
+2015-11-14 21:40:16,390 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 64200003 of <1000000000, 1500000000>
+2015-11-14 21:40:16,566 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 64320003 of <1000000000, 1500000000>
+2015-11-14 21:40:18,314 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 64440003 of <1000000000, 1500000000>
+2015-11-14 21:40:18,900 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 64560003 of <1000000000, 1500000000>
+2015-11-14 21:40:19,445 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 64680003 of <1000000000, 1500000000>
+2015-11-14 21:40:21,050 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 64800003 of <1000000000, 1500000000>
+2015-11-14 21:40:21,202 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 64920003 of <1000000000, 1500000000>
+2015-11-14 21:40:21,713 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 65040003 of <1000000000, 1500000000>
+2015-11-14 21:40:22,280 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 65160003 of <1000000000, 1500000000>
+2015-11-14 21:40:22,846 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 65280003 of <1000000000, 1500000000>
+2015-11-14 21:40:23,354 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 65400003 of <1000000000, 1500000000>
+2015-11-14 21:40:24,020 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 65520003 of <1000000000, 1500000000>
+2015-11-14 21:40:24,530 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 65640003 of <1000000000, 1500000000>
+2015-11-14 21:40:25,071 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 65760003 of <1000000000, 1500000000>
+2015-11-14 21:40:25,629 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 65880003 of <1000000000, 1500000000>
+2015-11-14 21:40:26,545 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 66000003 of <1000000000, 1500000000>
+2015-11-14 21:40:26,709 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 66120003 of <1000000000, 1500000000>
+2015-11-14 21:40:27,138 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 66240003 of <1000000000, 1500000000>
+2015-11-14 21:40:27,637 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 66360003 of <1000000000, 1500000000>
+2015-11-14 21:40:28,161 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 66480003 of <1000000000, 1500000000>
+2015-11-14 21:40:28,899 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 66600003 of <1000000000, 1500000000>
+2015-11-14 21:40:29,462 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 66720003 of <1000000000, 1500000000>
+2015-11-14 21:40:29,974 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 66840003 of <1000000000, 1500000000>
+2015-11-14 21:40:30,535 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 66960003 of <1000000000, 1500000000>
+2015-11-14 21:40:31,003 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 67080003 of <1000000000, 1500000000>
+2015-11-14 21:40:31,490 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 67200003 of <1000000000, 1500000000>
+2015-11-14 21:40:31,939 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 67320003 of <1000000000, 1500000000>
+2015-11-14 21:40:32,601 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 67440003 of <1000000000, 1500000000>
+2015-11-14 21:40:33,131 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 67560003 of <1000000000, 1500000000>
+2015-11-14 21:40:33,738 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 67680003 of <1000000000, 1500000000>
+2015-11-14 21:40:34,331 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 67800003 of <1000000000, 1500000000>
+2015-11-14 21:40:34,986 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 67920003 of <1000000000, 1500000000>
+2015-11-14 21:40:35,566 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 68040003 of <1000000000, 1500000000>
+2015-11-14 21:40:36,547 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 68160003 of <1000000000, 1500000000>
+2015-11-14 21:40:37,301 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 68280003 of <1000000000, 1500000000>
+2015-11-14 21:40:37,821 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 68400003 of <1000000000, 1500000000>
+2015-11-14 21:40:38,444 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 68520003 of <1000000000, 1500000000>
+2015-11-14 21:40:39,047 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 68640003 of <1000000000, 1500000000>
+2015-11-14 21:40:39,613 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 68760003 of <1000000000, 1500000000>
+2015-11-14 21:40:40,357 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 68880003 of <1000000000, 1500000000>
+2015-11-14 21:40:41,324 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 69000003 of <1000000000, 1500000000>
+2015-11-14 21:40:41,512 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 69120003 of <1000000000, 1500000000>
+2015-11-14 21:40:42,338 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 69240003 of <1000000000, 1500000000>
+2015-11-14 21:40:42,896 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 69360003 of <1000000000, 1500000000>
+2015-11-14 21:40:43,692 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 69480003 of <1000000000, 1500000000>
+2015-11-14 21:40:44,353 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 69600003 of <1000000000, 1500000000>
+2015-11-14 21:40:45,245 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 69720003 of <1000000000, 1500000000>
+2015-11-14 21:40:46,675 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 69840003 of <1000000000, 1500000000>
+2015-11-14 21:40:47,158 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 69960003 of <1000000000, 1500000000>
+2015-11-14 21:40:47,687 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 70080003 of <1000000000, 1500000000>
+2015-11-14 21:40:48,239 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 70200003 of <1000000000, 1500000000>
+2015-11-14 21:40:48,824 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 70320003 of <1000000000, 1500000000>
+2015-11-14 21:40:49,334 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 70440003 of <1000000000, 1500000000>
+2015-11-14 21:40:49,911 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 70560003 of <1000000000, 1500000000>
+2015-11-14 21:40:50,574 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 70680003 of <1000000000, 1500000000>
+2015-11-14 21:40:51,890 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 70800003 of <1000000000, 1500000000>
+2015-11-14 21:40:52,070 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 70920003 of <1000000000, 1500000000>
+2015-11-14 21:40:52,784 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 71040003 of <1000000000, 1500000000>
+2015-11-14 21:40:53,466 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 71160003 of <1000000000, 1500000000>
+2015-11-14 21:40:54,106 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 71280003 of <1000000000, 1500000000>
+2015-11-14 21:40:54,669 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 71400003 of <1000000000, 1500000000>
+2015-11-14 21:40:55,831 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 71520003 of <1000000000, 1500000000>
+2015-11-14 21:40:55,885 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 71640003 of <1000000000, 1500000000>
+2015-11-14 21:40:57,473 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 71760003 of <1000000000, 1500000000>
+2015-11-14 21:40:57,954 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 71880003 of <1000000000, 1500000000>
+2015-11-14 21:40:58,515 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 72000003 of <1000000000, 1500000000>
+2015-11-14 21:40:59,082 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 72120003 of <1000000000, 1500000000>
+2015-11-14 21:40:59,662 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 72240003 of <1000000000, 1500000000>
+2015-11-14 21:41:00,176 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 72360003 of <1000000000, 1500000000>
+2015-11-14 21:41:01,004 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 72480003 of <1000000000, 1500000000>
+2015-11-14 21:41:02,290 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 72600003 of <1000000000, 1500000000>
+2015-11-14 21:41:02,396 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 72720003 of <1000000000, 1500000000>
+2015-11-14 21:41:02,844 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 72840003 of <1000000000, 1500000000>
+2015-11-14 21:41:03,549 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 72960003 of <1000000000, 1500000000>
+2015-11-14 21:41:04,174 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 73080003 of <1000000000, 1500000000>
+2015-11-14 21:41:04,790 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 73200003 of <1000000000, 1500000000>
+2015-11-14 21:41:05,327 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 73320003 of <1000000000, 1500000000>
+2015-11-14 21:41:06,351 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 73440003 of <1000000000, 1500000000>
+2015-11-14 21:41:07,843 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 73560003 of <1000000000, 1500000000>
+2015-11-14 21:41:08,419 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 73680003 of <1000000000, 1500000000>
+2015-11-14 21:41:08,950 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 73800003 of <1000000000, 1500000000>
+2015-11-14 21:41:09,526 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 73920003 of <1000000000, 1500000000>
+2015-11-14 21:41:10,095 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 74040003 of <1000000000, 1500000000>
+2015-11-14 21:41:11,061 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 74160003 of <1000000000, 1500000000>
+2015-11-14 21:41:11,085 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 74280003 of <1000000000, 1500000000>
+2015-11-14 21:41:11,532 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 74400003 of <1000000000, 1500000000>
+2015-11-14 21:41:12,247 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 74520003 of <1000000000, 1500000000>
+2015-11-14 21:41:12,856 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 74640003 of <1000000000, 1500000000>
+2015-11-14 21:41:13,552 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 74760003 of <1000000000, 1500000000>
+2015-11-14 21:41:14,132 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 74880003 of <1000000000, 1500000000>
+2015-11-14 21:41:14,743 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 75000003 of <1000000000, 1500000000>
+2015-11-14 21:41:15,357 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 75120003 of <1000000000, 1500000000>
+2015-11-14 21:41:16,033 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 75240003 of <1000000000, 1500000000>
+2015-11-14 21:41:16,696 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 75360003 of <1000000000, 1500000000>
+2015-11-14 21:41:18,046 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 75480003 of <1000000000, 1500000000>
+2015-11-14 21:41:18,147 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 75600003 of <1000000000, 1500000000>
+2015-11-14 21:41:18,614 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 75720003 of <1000000000, 1500000000>
+2015-11-14 21:41:19,216 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 75840003 of <1000000000, 1500000000>
+2015-11-14 21:41:19,831 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 75960003 of <1000000000, 1500000000>
+2015-11-14 21:41:20,785 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 76080003 of <1000000000, 1500000000>
+2015-11-14 21:41:21,274 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 76200003 of <1000000000, 1500000000>
+2015-11-14 21:41:21,755 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 76320003 of <1000000000, 1500000000>
+2015-11-14 21:41:23,188 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 76440003 of <1000000000, 1500000000>
+2015-11-14 21:41:23,343 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 76560003 of <1000000000, 1500000000>
+2015-11-14 21:41:23,462 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 76680003 of <1000000000, 1500000000>
+2015-11-14 21:41:23,578 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 76800003 of <1000000000, 1500000000>
+2015-11-14 21:41:24,306 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 76920003 of <1000000000, 1500000000>
+2015-11-14 21:41:24,898 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 77040003 of <1000000000, 1500000000>
+2015-11-14 21:41:25,578 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 77160003 of <1000000000, 1500000000>
+2015-11-14 21:41:26,233 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 77280003 of <1000000000, 1500000000>
+2015-11-14 21:41:26,583 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 77400003 of <1000000000, 1500000000>
+2015-11-14 21:41:27,139 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 77520003 of <1000000000, 1500000000>
+2015-11-14 21:41:27,842 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 77640003 of <1000000000, 1500000000>
+2015-11-14 21:41:28,105 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 77760003 of <1000000000, 1500000000>
+2015-11-14 21:41:28,587 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 77880003 of <1000000000, 1500000000>
+2015-11-14 21:41:29,091 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 78000003 of <1000000000, 1500000000>
+2015-11-14 21:41:29,668 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 78120003 of <1000000000, 1500000000>
+2015-11-14 21:41:30,118 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 78240003 of <1000000000, 1500000000>
+2015-11-14 21:41:30,630 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 78360003 of <1000000000, 1500000000>
+2015-11-14 21:41:31,055 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 78480003 of <1000000000, 1500000000>
+2015-11-14 21:41:31,538 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 78600003 of <1000000000, 1500000000>
+2015-11-14 21:41:32,058 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 78720003 of <1000000000, 1500000000>
+2015-11-14 21:41:33,201 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 78840003 of <1000000000, 1500000000>
+2015-11-14 21:41:33,381 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 78960003 of <1000000000, 1500000000>
+2015-11-14 21:41:33,545 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 79080003 of <1000000000, 1500000000>
+2015-11-14 21:41:34,391 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 79200003 of <1000000000, 1500000000>
+2015-11-14 21:41:34,429 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 79320003 of <1000000000, 1500000000>
+2015-11-14 21:41:34,647 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 79440003 of <1000000000, 1500000000>
+2015-11-14 21:41:35,122 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 79560003 of <1000000000, 1500000000>
+2015-11-14 21:41:35,570 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 79680003 of <1000000000, 1500000000>
+2015-11-14 21:41:36,912 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 79800003 of <1000000000, 1500000000>
+2015-11-14 21:41:37,053 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 79920003 of <1000000000, 1500000000>
+2015-11-14 21:41:37,185 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 80040003 of <1000000000, 1500000000>
+2015-11-14 21:41:37,330 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 80160003 of <1000000000, 1500000000>
+2015-11-14 21:41:38,846 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 80280003 of <1000000000, 1500000000>
+2015-11-14 21:41:39,711 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 80400003 of <1000000000, 1500000000>
+2015-11-14 21:41:39,961 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 80520003 of <1000000000, 1500000000>
+2015-11-14 21:41:40,274 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 80640003 of <1000000000, 1500000000>
+2015-11-14 21:41:40,642 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 80760003 of <1000000000, 1500000000>
+2015-11-14 21:41:41,029 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 80880003 of <1000000000, 1500000000>
+2015-11-14 21:41:41,370 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 81000003 of <1000000000, 1500000000>
+2015-11-14 21:41:41,740 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 81120003 of <1000000000, 1500000000>
+2015-11-14 21:41:42,470 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 81240003 of <1000000000, 1500000000>
+2015-11-14 21:41:42,816 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 81360003 of <1000000000, 1500000000>
+2015-11-14 21:41:43,147 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 81480003 of <1000000000, 1500000000>
+2015-11-14 21:41:43,680 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 81600003 of <1000000000, 1500000000>
+2015-11-14 21:41:44,095 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 81720003 of <1000000000, 1500000000>
+2015-11-14 21:41:44,944 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 81840003 of <1000000000, 1500000000>
+2015-11-14 21:41:45,024 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 81960003 of <1000000000, 1500000000>
+2015-11-14 21:41:45,429 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 82080003 of <1000000000, 1500000000>
+2015-11-14 21:41:46,325 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 82200003 of <1000000000, 1500000000>
+2015-11-14 21:41:46,445 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 82320003 of <1000000000, 1500000000>
+2015-11-14 21:41:46,581 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 82440003 of <1000000000, 1500000000>
+2015-11-14 21:41:47,205 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 82560003 of <1000000000, 1500000000>
+2015-11-14 21:41:48,391 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 82680003 of <1000000000, 1500000000>
+2015-11-14 21:41:48,521 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 82800003 of <1000000000, 1500000000>
+2015-11-14 21:41:48,685 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 82920003 of <1000000000, 1500000000>
+2015-11-14 21:41:50,117 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 83040003 of <1000000000, 1500000000>
+2015-11-14 21:41:50,267 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 83160003 of <1000000000, 1500000000>
+2015-11-14 21:41:50,419 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 83280003 of <1000000000, 1500000000>
+2015-11-14 21:41:50,544 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 83400003 of <1000000000, 1500000000>
+2015-11-14 21:41:50,665 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 83520003 of <1000000000, 1500000000>
+2015-11-14 21:41:50,897 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 83640003 of <1000000000, 1500000000>
+2015-11-14 21:41:51,708 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 83760003 of <1000000000, 1500000000>
+2015-11-14 21:41:51,864 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 83880003 of <1000000000, 1500000000>
+2015-11-14 21:41:52,200 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 84000003 of <1000000000, 1500000000>
+2015-11-14 21:41:52,558 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 84120003 of <1000000000, 1500000000>
+2015-11-14 21:41:53,623 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 84240003 of <1000000000, 1500000000>
+2015-11-14 21:41:53,740 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 84360003 of <1000000000, 1500000000>
+2015-11-14 21:41:55,249 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 84480003 of <1000000000, 1500000000>
+2015-11-14 21:41:55,339 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 84600003 of <1000000000, 1500000000>
+2015-11-14 21:41:55,469 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 84720003 of <1000000000, 1500000000>
+2015-11-14 21:41:55,566 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 84840003 of <1000000000, 1500000000>
+2015-11-14 21:41:55,887 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 84960003 of <1000000000, 1500000000>
+2015-11-14 21:41:56,364 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 85080003 of <1000000000, 1500000000>
+2015-11-14 21:41:57,235 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 85200003 of <1000000000, 1500000000>
+2015-11-14 21:41:57,776 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 85320003 of <1000000000, 1500000000>
+2015-11-14 21:41:58,311 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 85440003 of <1000000000, 1500000000>
+2015-11-14 21:41:58,379 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 85560003 of <1000000000, 1500000000>
+2015-11-14 21:41:58,773 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 85680003 of <1000000000, 1500000000>
+2015-11-14 21:41:59,185 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 85800003 of <1000000000, 1500000000>
+2015-11-14 21:42:01,023 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 85920003 of <1000000000, 1500000000>
+2015-11-14 21:42:01,243 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 86040003 of <1000000000, 1500000000>
+2015-11-14 21:42:01,438 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 86160003 of <1000000000, 1500000000>
+2015-11-14 21:42:02,303 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 86280003 of <1000000000, 1500000000>
+2015-11-14 21:42:02,583 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 86400003 of <1000000000, 1500000000>
+2015-11-14 21:42:03,008 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 86520003 of <1000000000, 1500000000>
+2015-11-14 21:42:03,307 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 86640003 of <1000000000, 1500000000>
+2015-11-14 21:42:03,694 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 86760003 of <1000000000, 1500000000>
+2015-11-14 21:42:04,272 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 86880003 of <1000000000, 1500000000>
+2015-11-14 21:42:04,778 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 87000003 of <1000000000, 1500000000>
+2015-11-14 21:42:05,588 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 87120003 of <1000000000, 1500000000>
+2015-11-14 21:42:05,684 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 87240003 of <1000000000, 1500000000>
+2015-11-14 21:42:06,333 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 87360003 of <1000000000, 1500000000>
+2015-11-14 21:42:06,850 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 87480003 of <1000000000, 1500000000>
+2015-11-14 21:42:07,314 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 87600003 of <1000000000, 1500000000>
+2015-11-14 21:42:07,793 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 87720003 of <1000000000, 1500000000>
+2015-11-14 21:42:08,958 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 87840003 of <1000000000, 1500000000>
+2015-11-14 21:42:09,075 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 87960003 of <1000000000, 1500000000>
+2015-11-14 21:42:09,177 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 88080003 of <1000000000, 1500000000>
+2015-11-14 21:42:09,733 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 88200003 of <1000000000, 1500000000>
+2015-11-14 21:42:10,321 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 88320003 of <1000000000, 1500000000>
+2015-11-14 21:42:10,863 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 88440003 of <1000000000, 1500000000>
+2015-11-14 21:42:11,431 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 88560003 of <1000000000, 1500000000>
+2015-11-14 21:42:12,513 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 88680003 of <1000000000, 1500000000>
+2015-11-14 21:42:12,637 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 88800003 of <1000000000, 1500000000>
+2015-11-14 21:42:12,883 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 88920003 of <1000000000, 1500000000>
+2015-11-14 21:42:13,582 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 89040003 of <1000000000, 1500000000>
+2015-11-14 21:42:14,075 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 89160003 of <1000000000, 1500000000>
+2015-11-14 21:42:14,578 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 89280003 of <1000000000, 1500000000>
+2015-11-14 21:42:15,244 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 89400003 of <1000000000, 1500000000>
+2015-11-14 21:42:15,775 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 89520003 of <1000000000, 1500000000>
+2015-11-14 21:42:16,415 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 89640003 of <1000000000, 1500000000>
+2015-11-14 21:42:17,602 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 89760003 of <1000000000, 1500000000>
+2015-11-14 21:42:17,776 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 89880003 of <1000000000, 1500000000>
+2015-11-14 21:42:18,076 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 90000003 of <1000000000, 1500000000>
+2015-11-14 21:42:18,403 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 90120003 of <1000000000, 1500000000>
+2015-11-14 21:42:19,466 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 90240003 of <1000000000, 1500000000>
+2015-11-14 21:42:19,618 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 90360003 of <1000000000, 1500000000>
+2015-11-14 21:42:20,405 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 90480003 of <1000000000, 1500000000>
+2015-11-14 21:42:20,824 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 90600003 of <1000000000, 1500000000>
+2015-11-14 21:42:21,160 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 90720003 of <1000000000, 1500000000>
+2015-11-14 21:42:21,640 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 90840003 of <1000000000, 1500000000>
+2015-11-14 21:42:22,599 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 90960003 of <1000000000, 1500000000>
+2015-11-14 21:42:22,728 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 91080003 of <1000000000, 1500000000>
+2015-11-14 21:42:22,872 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 91200003 of <1000000000, 1500000000>
+2015-11-14 21:42:23,283 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 91320003 of <1000000000, 1500000000>
+2015-11-14 21:42:24,569 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 91440003 of <1000000000, 1500000000>
+2015-11-14 21:42:24,695 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 91560003 of <1000000000, 1500000000>
+2015-11-14 21:42:24,808 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 91680003 of <1000000000, 1500000000>
+2015-11-14 21:42:24,918 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 91800003 of <1000000000, 1500000000>
+2015-11-14 21:42:25,608 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 91920003 of <1000000000, 1500000000>
+2015-11-14 21:42:26,290 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 92040003 of <1000000000, 1500000000>
+2015-11-14 21:42:26,373 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 92160003 of <1000000000, 1500000000>
+2015-11-14 21:42:27,638 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 92280003 of <1000000000, 1500000000>
+2015-11-14 21:42:27,788 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 92400003 of <1000000000, 1500000000>
+2015-11-14 21:42:28,102 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 92520003 of <1000000000, 1500000000>
+2015-11-14 21:42:28,691 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 92640003 of <1000000000, 1500000000>
+2015-11-14 21:42:29,457 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 92760003 of <1000000000, 1500000000>
+2015-11-14 21:42:29,889 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 92880003 of <1000000000, 1500000000>
+2015-11-14 21:42:30,427 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 93000003 of <1000000000, 1500000000>
+2015-11-14 21:42:30,995 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 93120003 of <1000000000, 1500000000>
+2015-11-14 21:42:31,485 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 93240003 of <1000000000, 1500000000>
+2015-11-14 21:42:32,915 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 93360003 of <1000000000, 1500000000>
+2015-11-14 21:42:33,089 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 93480003 of <1000000000, 1500000000>
+2015-11-14 21:42:33,442 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 93600003 of <1000000000, 1500000000>
+2015-11-14 21:42:33,950 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 93720003 of <1000000000, 1500000000>
+2015-11-14 21:42:34,200 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 93840003 of <1000000000, 1500000000>
+2015-11-14 21:42:34,410 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 93960003 of <1000000000, 1500000000>
+2015-11-14 21:42:34,625 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 94080003 of <1000000000, 1500000000>
+2015-11-14 21:42:34,763 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 94200003 of <1000000000, 1500000000>
+2015-11-14 21:42:34,980 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 94320003 of <1000000000, 1500000000>
+2015-11-14 21:42:35,690 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 94440003 of <1000000000, 1500000000>
+2015-11-14 21:42:36,355 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 94560003 of <1000000000, 1500000000>
+2015-11-14 21:42:36,476 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 94680003 of <1000000000, 1500000000>
+2015-11-14 21:42:37,960 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 94800003 of <1000000000, 1500000000>
+2015-11-14 21:42:38,331 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 94920003 of <1000000000, 1500000000>
+2015-11-14 21:42:38,530 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 95040003 of <1000000000, 1500000000>
+2015-11-14 21:42:38,876 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 95160003 of <1000000000, 1500000000>
+2015-11-14 21:42:40,071 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 95280003 of <1000000000, 1500000000>
+2015-11-14 21:42:40,252 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 95400003 of <1000000000, 1500000000>
+2015-11-14 21:42:40,798 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 95520003 of <1000000000, 1500000000>
+2015-11-14 21:42:41,339 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 95640003 of <1000000000, 1500000000>
+2015-11-14 21:42:41,793 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 95760003 of <1000000000, 1500000000>
+2015-11-14 21:42:43,696 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 95880003 of <1000000000, 1500000000>
+2015-11-14 21:42:44,023 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 96000003 of <1000000000, 1500000000>
+2015-11-14 21:42:44,844 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 96120003 of <1000000000, 1500000000>
+2015-11-14 21:42:44,931 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 96240003 of <1000000000, 1500000000>
+2015-11-14 21:42:46,826 INFO [Thread-13] org.apache.hadoop.hdfs.DFSClient: Exception in createBlockOutputStream
+java.io.IOException: Bad connect ack with firstBadLink as 172.28.140.193:50010
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.createBlockOutputStream(DFSOutputStream.java:1460)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.nextBlockOutputStream(DFSOutputStream.java:1361)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.run(DFSOutputStream.java:588)
+2015-11-14 21:42:46,827 INFO [Thread-13] org.apache.hadoop.hdfs.DFSClient: Abandoning BP-1453324395-172.28.143.112-1446961098457:blk_1073749557_8777
+2015-11-14 21:42:47,454 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 96360003 of <1000000000, 1500000000>
+2015-11-14 21:42:48,432 INFO [Thread-13] org.apache.hadoop.hdfs.DFSClient: Excluding datanode 172.28.140.193:50010
+2015-11-14 21:42:49,089 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 96480003 of <1000000000, 1500000000>
+2015-11-14 21:42:49,301 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 96600003 of <1000000000, 1500000000>
+2015-11-14 21:42:49,979 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 96720003 of <1000000000, 1500000000>
+2015-11-14 21:42:50,595 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 96840003 of <1000000000, 1500000000>
+2015-11-14 21:42:50,999 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 96960003 of <1000000000, 1500000000>
+2015-11-14 21:42:52,232 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 97080003 of <1000000000, 1500000000>
+2015-11-14 21:42:52,257 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 97200003 of <1000000000, 1500000000>
+2015-11-14 21:42:52,394 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 97320003 of <1000000000, 1500000000>
+2015-11-14 21:42:53,673 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 97440003 of <1000000000, 1500000000>
+2015-11-14 21:42:53,849 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 97560003 of <1000000000, 1500000000>
+2015-11-14 21:42:54,269 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 97680003 of <1000000000, 1500000000>
+2015-11-14 21:42:55,673 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 97800003 of <1000000000, 1500000000>
+2015-11-14 21:42:55,864 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 97920003 of <1000000000, 1500000000>
+2015-11-14 21:42:56,039 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 98040003 of <1000000000, 1500000000>
+2015-11-14 21:42:57,398 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 98160003 of <1000000000, 1500000000>
+2015-11-14 21:42:57,494 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 98280003 of <1000000000, 1500000000>
+2015-11-14 21:42:58,600 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 98400003 of <1000000000, 1500000000>
+2015-11-14 21:42:58,730 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 98520003 of <1000000000, 1500000000>
+2015-11-14 21:42:58,856 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 98640003 of <1000000000, 1500000000>
+2015-11-14 21:42:58,978 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 98760003 of <1000000000, 1500000000>
+2015-11-14 21:42:59,317 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 98880003 of <1000000000, 1500000000>
+2015-11-14 21:42:59,734 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 99000003 of <1000000000, 1500000000>
+2015-11-14 21:43:00,587 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 99120003 of <1000000000, 1500000000>
+2015-11-14 21:43:00,728 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 99240003 of <1000000000, 1500000000>
+2015-11-14 21:43:01,338 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 99360003 of <1000000000, 1500000000>
+2015-11-14 21:43:02,668 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 99480003 of <1000000000, 1500000000>
+2015-11-14 21:43:03,572 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 99600003 of <1000000000, 1500000000>
+2015-11-14 21:43:03,734 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 99720003 of <1000000000, 1500000000>
+2015-11-14 21:43:04,030 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 99840003 of <1000000000, 1500000000>
+2015-11-14 21:43:04,547 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 99960003 of <1000000000, 1500000000>
+2015-11-14 21:43:05,793 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 100080003 of <1000000000, 1500000000>
+2015-11-14 21:43:05,956 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 100200003 of <1000000000, 1500000000>
+2015-11-14 21:43:06,097 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 100320003 of <1000000000, 1500000000>
+2015-11-14 21:43:06,980 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 100440003 of <1000000000, 1500000000>
+2015-11-14 21:43:07,753 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 100560003 of <1000000000, 1500000000>
+2015-11-14 21:43:07,830 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 100680003 of <1000000000, 1500000000>
+2015-11-14 21:43:08,286 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 100800003 of <1000000000, 1500000000>
+2015-11-14 21:43:08,793 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 100920003 of <1000000000, 1500000000>
+2015-11-14 21:43:09,236 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 101040003 of <1000000000, 1500000000>
+2015-11-14 21:43:09,724 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 101160003 of <1000000000, 1500000000>
+2015-11-14 21:43:10,210 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 101280003 of <1000000000, 1500000000>
+2015-11-14 21:43:10,909 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 101400003 of <1000000000, 1500000000>
+2015-11-14 21:43:11,432 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 101520003 of <1000000000, 1500000000>
+2015-11-14 21:43:11,903 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 101640003 of <1000000000, 1500000000>
+2015-11-14 21:43:12,685 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 101760003 of <1000000000, 1500000000>
+2015-11-14 21:43:12,969 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 101880003 of <1000000000, 1500000000>
+2015-11-14 21:43:13,559 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 102000003 of <1000000000, 1500000000>
+2015-11-14 21:43:14,026 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 102120003 of <1000000000, 1500000000>
+2015-11-14 21:43:14,589 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 102240003 of <1000000000, 1500000000>
+2015-11-14 21:43:15,757 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 102360003 of <1000000000, 1500000000>
+2015-11-14 21:43:15,855 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 102480003 of <1000000000, 1500000000>
+2015-11-14 21:43:15,991 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 102600003 of <1000000000, 1500000000>
+2015-11-14 21:43:16,691 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 102720003 of <1000000000, 1500000000>
+2015-11-14 21:43:17,377 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 102840003 of <1000000000, 1500000000>
+2015-11-14 21:43:17,948 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 102960003 of <1000000000, 1500000000>
+2015-11-14 21:43:18,454 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 103080003 of <1000000000, 1500000000>
+2015-11-14 21:43:18,915 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 103200003 of <1000000000, 1500000000>
+2015-11-14 21:43:19,435 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 103320003 of <1000000000, 1500000000>
+2015-11-14 21:43:19,955 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 103440003 of <1000000000, 1500000000>
+2015-11-14 21:43:20,982 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 103560003 of <1000000000, 1500000000>
+2015-11-14 21:43:21,139 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 103680003 of <1000000000, 1500000000>
+2015-11-14 21:43:21,926 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 103800003 of <1000000000, 1500000000>
+2015-11-14 21:43:22,440 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 103920003 of <1000000000, 1500000000>
+2015-11-14 21:43:22,988 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 104040003 of <1000000000, 1500000000>
+2015-11-14 21:43:23,519 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 104160003 of <1000000000, 1500000000>
+2015-11-14 21:43:24,339 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 104280003 of <1000000000, 1500000000>
+2015-11-14 21:43:25,049 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 104400003 of <1000000000, 1500000000>
+2015-11-14 21:43:25,577 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 104520003 of <1000000000, 1500000000>
+2015-11-14 21:43:26,088 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 104640003 of <1000000000, 1500000000>
+2015-11-14 21:43:26,539 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 104760003 of <1000000000, 1500000000>
+2015-11-14 21:43:27,134 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 104880003 of <1000000000, 1500000000>
+2015-11-14 21:43:27,751 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 105000003 of <1000000000, 1500000000>
+2015-11-14 21:43:28,811 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 105120003 of <1000000000, 1500000000>
+2015-11-14 21:43:28,977 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 105240003 of <1000000000, 1500000000>
+2015-11-14 21:43:29,209 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 105360003 of <1000000000, 1500000000>
+2015-11-14 21:43:29,719 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 105480003 of <1000000000, 1500000000>
+2015-11-14 21:43:30,232 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 105600003 of <1000000000, 1500000000>
+2015-11-14 21:43:30,849 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 105720003 of <1000000000, 1500000000>
+2015-11-14 21:43:31,172 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 105840003 of <1000000000, 1500000000>
+2015-11-14 21:43:31,987 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 105960003 of <1000000000, 1500000000>
+2015-11-14 21:43:32,607 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 106080003 of <1000000000, 1500000000>
+2015-11-14 21:43:33,130 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 106200003 of <1000000000, 1500000000>
+2015-11-14 21:43:33,610 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 106320003 of <1000000000, 1500000000>
+2015-11-14 21:43:34,142 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 106440003 of <1000000000, 1500000000>
+2015-11-14 21:43:34,653 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 106560003 of <1000000000, 1500000000>
+2015-11-14 21:43:35,164 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 106680003 of <1000000000, 1500000000>
+2015-11-14 21:43:35,614 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 106800003 of <1000000000, 1500000000>
+2015-11-14 21:43:35,950 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 106920003 of <1000000000, 1500000000>
+2015-11-14 21:43:36,767 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 107040003 of <1000000000, 1500000000>
+2015-11-14 21:43:37,121 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 107160003 of <1000000000, 1500000000>
+2015-11-14 21:43:37,431 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 107280003 of <1000000000, 1500000000>
+2015-11-14 21:43:37,844 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 107400003 of <1000000000, 1500000000>
+2015-11-14 21:43:38,355 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 107520003 of <1000000000, 1500000000>
+2015-11-14 21:43:39,066 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 107640003 of <1000000000, 1500000000>
+2015-11-14 21:43:39,507 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 107760003 of <1000000000, 1500000000>
+2015-11-14 21:43:39,883 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 107880003 of <1000000000, 1500000000>
+2015-11-14 21:43:40,378 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 108000003 of <1000000000, 1500000000>
+2015-11-14 21:43:41,666 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 108120003 of <1000000000, 1500000000>
+2015-11-14 21:43:41,781 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 108240003 of <1000000000, 1500000000>
+2015-11-14 21:43:41,891 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 108360003 of <1000000000, 1500000000>
+2015-11-14 21:43:42,458 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 108480003 of <1000000000, 1500000000>
+2015-11-14 21:43:42,966 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 108600003 of <1000000000, 1500000000>
+2015-11-14 21:43:43,743 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 108720003 of <1000000000, 1500000000>
+2015-11-14 21:43:43,997 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 108840003 of <1000000000, 1500000000>
+2015-11-14 21:43:44,570 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 108960003 of <1000000000, 1500000000>
+2015-11-14 21:43:45,221 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 109080003 of <1000000000, 1500000000>
+2015-11-14 21:43:46,437 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 109200003 of <1000000000, 1500000000>
+2015-11-14 21:43:46,581 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 109320003 of <1000000000, 1500000000>
+2015-11-14 21:43:46,796 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 109440003 of <1000000000, 1500000000>
+2015-11-14 21:43:47,319 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 109560003 of <1000000000, 1500000000>
+2015-11-14 21:43:47,902 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 109680003 of <1000000000, 1500000000>
+2015-11-14 21:43:49,011 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 109800003 of <1000000000, 1500000000>
+2015-11-14 21:43:49,154 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 109920003 of <1000000000, 1500000000>
+2015-11-14 21:43:49,284 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 110040003 of <1000000000, 1500000000>
+2015-11-14 21:43:49,759 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 110160003 of <1000000000, 1500000000>
+2015-11-14 21:43:50,263 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 110280003 of <1000000000, 1500000000>
+2015-11-14 21:43:51,599 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 110400003 of <1000000000, 1500000000>
+2015-11-14 21:43:51,783 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 110520003 of <1000000000, 1500000000>
+2015-11-14 21:43:52,390 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 110640003 of <1000000000, 1500000000>
+2015-11-14 21:43:53,017 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 110760003 of <1000000000, 1500000000>
+2015-11-14 21:43:53,599 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 110880003 of <1000000000, 1500000000>
+2015-11-14 21:43:54,030 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 111000003 of <1000000000, 1500000000>
+2015-11-14 21:43:54,542 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 111120003 of <1000000000, 1500000000>
+2015-11-14 21:43:55,053 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 111240003 of <1000000000, 1500000000>
+2015-11-14 21:43:55,504 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 111360003 of <1000000000, 1500000000>
+2015-11-14 21:43:57,204 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 111480003 of <1000000000, 1500000000>
+2015-11-14 21:43:58,074 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 111600003 of <1000000000, 1500000000>
+2015-11-14 21:43:58,753 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 111720003 of <1000000000, 1500000000>
+2015-11-14 21:43:59,017 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 111840003 of <1000000000, 1500000000>
+2015-11-14 21:43:59,591 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 111960003 of <1000000000, 1500000000>
+2015-11-14 21:44:00,394 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 112080003 of <1000000000, 1500000000>
+2015-11-14 21:44:01,556 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 112200003 of <1000000000, 1500000000>
+2015-11-14 21:44:02,021 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 112320003 of <1000000000, 1500000000>
+2015-11-14 21:44:02,611 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 112440003 of <1000000000, 1500000000>
+2015-11-14 21:44:03,128 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 112560003 of <1000000000, 1500000000>
+2015-11-14 21:44:04,155 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 112680003 of <1000000000, 1500000000>
+2015-11-14 21:44:04,284 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 112800003 of <1000000000, 1500000000>
+2015-11-14 21:44:04,398 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 112920003 of <1000000000, 1500000000>
+2015-11-14 21:44:04,814 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 113040003 of <1000000000, 1500000000>
+2015-11-14 21:44:05,338 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 113160003 of <1000000000, 1500000000>
+2015-11-14 21:44:05,901 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 113280003 of <1000000000, 1500000000>
+2015-11-14 21:44:06,254 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 113400003 of <1000000000, 1500000000>
+2015-11-14 21:44:06,742 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 113520003 of <1000000000, 1500000000>
+2015-11-14 21:44:07,203 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 113640003 of <1000000000, 1500000000>
+2015-11-14 21:44:07,703 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 113760003 of <1000000000, 1500000000>
+2015-11-14 21:44:08,112 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 113880003 of <1000000000, 1500000000>
+2015-11-14 21:44:08,727 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 114000003 of <1000000000, 1500000000>
+2015-11-14 21:44:09,234 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 114120003 of <1000000000, 1500000000>
+2015-11-14 21:44:09,542 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 114240003 of <1000000000, 1500000000>
+2015-11-14 21:44:09,975 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 114360003 of <1000000000, 1500000000>
+2015-11-14 21:44:10,461 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 114480003 of <1000000000, 1500000000>
+2015-11-14 21:44:11,549 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 114600003 of <1000000000, 1500000000>
+2015-11-14 21:44:11,718 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 114720003 of <1000000000, 1500000000>
+2015-11-14 21:44:12,127 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 114840003 of <1000000000, 1500000000>
+2015-11-14 21:44:12,827 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 114960003 of <1000000000, 1500000000>
+2015-11-14 21:44:13,386 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 115080003 of <1000000000, 1500000000>
+2015-11-14 21:44:13,886 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 115200003 of <1000000000, 1500000000>
+2015-11-14 21:44:14,367 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 115320003 of <1000000000, 1500000000>
+2015-11-14 21:44:14,789 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 115440003 of <1000000000, 1500000000>
+2015-11-14 21:44:15,290 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 115560003 of <1000000000, 1500000000>
+2015-11-14 21:44:15,770 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 115680003 of <1000000000, 1500000000>
+2015-11-14 21:44:16,732 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 115800003 of <1000000000, 1500000000>
+2015-11-14 21:44:16,851 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 115920003 of <1000000000, 1500000000>
+2015-11-14 21:44:17,079 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 116040003 of <1000000000, 1500000000>
+2015-11-14 21:44:17,638 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 116160003 of <1000000000, 1500000000>
+2015-11-14 21:44:18,401 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 116280003 of <1000000000, 1500000000>
+2015-11-14 21:44:18,860 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 116400003 of <1000000000, 1500000000>
+2015-11-14 21:44:19,349 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 116520003 of <1000000000, 1500000000>
+2015-11-14 21:44:19,837 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 116640003 of <1000000000, 1500000000>
+2015-11-14 21:44:20,320 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 116760003 of <1000000000, 1500000000>
+2015-11-14 21:44:20,756 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 116880003 of <1000000000, 1500000000>
+2015-11-14 21:44:21,955 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 117000003 of <1000000000, 1500000000>
+2015-11-14 21:44:22,065 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 117120003 of <1000000000, 1500000000>
+2015-11-14 21:44:22,602 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 117240003 of <1000000000, 1500000000>
+2015-11-14 21:44:22,635 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 117360003 of <1000000000, 1500000000>
+2015-11-14 21:44:22,688 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 117480003 of <1000000000, 1500000000>
+2015-11-14 21:44:23,274 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 117600003 of <1000000000, 1500000000>
+2015-11-14 21:44:23,906 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 117720003 of <1000000000, 1500000000>
+2015-11-14 21:44:24,248 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 117840003 of <1000000000, 1500000000>
+2015-11-14 21:44:24,964 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 117960003 of <1000000000, 1500000000>
+2015-11-14 21:44:25,443 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 118080003 of <1000000000, 1500000000>
+2015-11-14 21:44:25,898 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 118200003 of <1000000000, 1500000000>
+2015-11-14 21:44:26,965 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 118320003 of <1000000000, 1500000000>
+2015-11-14 21:44:28,247 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 118440003 of <1000000000, 1500000000>
+2015-11-14 21:44:28,422 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 118560003 of <1000000000, 1500000000>
+2015-11-14 21:44:29,444 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 118680003 of <1000000000, 1500000000>
+2015-11-14 21:44:29,574 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 118800003 of <1000000000, 1500000000>
+2015-11-14 21:44:29,693 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 118920003 of <1000000000, 1500000000>
+2015-11-14 21:44:29,936 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 119040003 of <1000000000, 1500000000>
+2015-11-14 21:44:30,090 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 119160003 of <1000000000, 1500000000>
+2015-11-14 21:44:30,422 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 119280003 of <1000000000, 1500000000>
+2015-11-14 21:44:30,724 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 119400003 of <1000000000, 1500000000>
+2015-11-14 21:44:31,085 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 119520003 of <1000000000, 1500000000>
+2015-11-14 21:44:32,501 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 119640003 of <1000000000, 1500000000>
+2015-11-14 21:44:32,789 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 119760003 of <1000000000, 1500000000>
+2015-11-14 21:44:33,161 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 119880003 of <1000000000, 1500000000>
+2015-11-14 21:44:33,570 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 120000003 of <1000000000, 1500000000>
+2015-11-14 21:44:34,008 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 120120003 of <1000000000, 1500000000>
+2015-11-14 21:44:34,320 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 120240003 of <1000000000, 1500000000>
+2015-11-14 21:44:34,678 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 120360003 of <1000000000, 1500000000>
+2015-11-14 21:44:35,009 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 120480003 of <1000000000, 1500000000>
+2015-11-14 21:44:35,242 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 120600003 of <1000000000, 1500000000>
+2015-11-14 21:44:35,463 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 120720003 of <1000000000, 1500000000>
+2015-11-14 21:44:35,780 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 120840003 of <1000000000, 1500000000>
+2015-11-14 21:44:36,132 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 120960003 of <1000000000, 1500000000>
+2015-11-14 21:44:36,535 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 121080003 of <1000000000, 1500000000>
+2015-11-14 21:44:37,890 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 121200003 of <1000000000, 1500000000>
+2015-11-14 21:44:38,019 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 121320003 of <1000000000, 1500000000>
+2015-11-14 21:44:38,796 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 121440003 of <1000000000, 1500000000>
+2015-11-14 21:44:39,333 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 121560003 of <1000000000, 1500000000>
+2015-11-14 21:44:39,723 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 121680003 of <1000000000, 1500000000>
+2015-11-14 21:44:40,245 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 121800003 of <1000000000, 1500000000>
+2015-11-14 21:44:40,877 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 121920003 of <1000000000, 1500000000>
+2015-11-14 21:44:41,394 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 122040003 of <1000000000, 1500000000>
+2015-11-14 21:44:41,933 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 122160003 of <1000000000, 1500000000>
+2015-11-14 21:44:42,781 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 122280003 of <1000000000, 1500000000>
+2015-11-14 21:44:43,078 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 122400003 of <1000000000, 1500000000>
+2015-11-14 21:44:43,802 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 122520003 of <1000000000, 1500000000>
+2015-11-14 21:44:44,332 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 122640003 of <1000000000, 1500000000>
+2015-11-14 21:44:44,735 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 122760003 of <1000000000, 1500000000>
+2015-11-14 21:44:45,106 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 122880003 of <1000000000, 1500000000>
+2015-11-14 21:44:45,312 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 123000003 of <1000000000, 1500000000>
+2015-11-14 21:44:45,875 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 123120003 of <1000000000, 1500000000>
+2015-11-14 21:44:46,069 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 123240003 of <1000000000, 1500000000>
+2015-11-14 21:44:46,210 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 123360003 of <1000000000, 1500000000>
+2015-11-14 21:44:46,429 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 123480003 of <1000000000, 1500000000>
+2015-11-14 21:44:46,686 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 123600003 of <1000000000, 1500000000>
+2015-11-14 21:44:46,950 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 123720003 of <1000000000, 1500000000>
+2015-11-14 21:44:47,295 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 123840003 of <1000000000, 1500000000>
+2015-11-14 21:44:47,500 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 123960003 of <1000000000, 1500000000>
+2015-11-14 21:44:47,761 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 124080003 of <1000000000, 1500000000>
+2015-11-14 21:44:48,393 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 124200003 of <1000000000, 1500000000>
+2015-11-14 21:44:49,703 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 124320003 of <1000000000, 1500000000>
+2015-11-14 21:44:49,876 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 124440003 of <1000000000, 1500000000>
+2015-11-14 21:44:50,324 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 124560003 of <1000000000, 1500000000>
+2015-11-14 21:44:50,886 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 124680003 of <1000000000, 1500000000>
+2015-11-14 21:44:51,444 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 124800003 of <1000000000, 1500000000>
+2015-11-14 21:44:51,943 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 124920003 of <1000000000, 1500000000>
+2015-11-14 21:44:53,160 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 125040003 of <1000000000, 1500000000>
+2015-11-14 21:44:53,321 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 125160003 of <1000000000, 1500000000>
+2015-11-14 21:44:53,822 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 125280003 of <1000000000, 1500000000>
+2015-11-14 21:44:54,307 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 125400003 of <1000000000, 1500000000>
+2015-11-14 21:44:54,810 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 125520003 of <1000000000, 1500000000>
+2015-11-14 21:44:55,269 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 125640003 of <1000000000, 1500000000>
+2015-11-14 21:44:56,261 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 125760003 of <1000000000, 1500000000>
+2015-11-14 21:44:56,350 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 125880003 of <1000000000, 1500000000>
+2015-11-14 21:44:56,532 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 126000003 of <1000000000, 1500000000>
+2015-11-14 21:44:57,100 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 126120003 of <1000000000, 1500000000>
+2015-11-14 21:44:58,368 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 126240003 of <1000000000, 1500000000>
+2015-11-14 21:44:58,449 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 126360003 of <1000000000, 1500000000>
+2015-11-14 21:44:58,535 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 126480003 of <1000000000, 1500000000>
+2015-11-14 21:44:58,958 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 126600003 of <1000000000, 1500000000>
+2015-11-14 21:44:59,422 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 126720003 of <1000000000, 1500000000>
+2015-11-14 21:44:59,834 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 126840003 of <1000000000, 1500000000>
+2015-11-14 21:45:00,319 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 126960003 of <1000000000, 1500000000>
+2015-11-14 21:45:00,791 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 127080003 of <1000000000, 1500000000>
+2015-11-14 21:45:01,238 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 127200003 of <1000000000, 1500000000>
+2015-11-14 21:45:01,685 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 127320003 of <1000000000, 1500000000>
+2015-11-14 21:45:02,265 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 127440003 of <1000000000, 1500000000>
+2015-11-14 21:45:02,949 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 127560003 of <1000000000, 1500000000>
+2015-11-14 21:45:03,671 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 127680003 of <1000000000, 1500000000>
+2015-11-14 21:45:04,399 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 127800003 of <1000000000, 1500000000>
+2015-11-14 21:45:04,934 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 127920003 of <1000000000, 1500000000>
+2015-11-14 21:45:05,452 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 128040003 of <1000000000, 1500000000>
+2015-11-14 21:45:05,876 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 128160003 of <1000000000, 1500000000>
+2015-11-14 21:45:08,712 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 128280003 of <1000000000, 1500000000>
+2015-11-14 21:45:10,113 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 128400003 of <1000000000, 1500000000>
+2015-11-14 21:45:10,178 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 128520003 of <1000000000, 1500000000>
+2015-11-14 21:45:10,277 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 128640003 of <1000000000, 1500000000>
+2015-11-14 21:45:10,846 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 128760003 of <1000000000, 1500000000>
+2015-11-14 21:45:11,438 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 128880003 of <1000000000, 1500000000>
+2015-11-14 21:45:12,427 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 129000003 of <1000000000, 1500000000>
+2015-11-14 21:45:13,980 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 129120003 of <1000000000, 1500000000>
+2015-11-14 21:45:14,355 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 129240003 of <1000000000, 1500000000>
+2015-11-14 21:45:14,789 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 129360003 of <1000000000, 1500000000>
+2015-11-14 21:45:15,184 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 129480003 of <1000000000, 1500000000>
+2015-11-14 21:45:15,630 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 129600003 of <1000000000, 1500000000>
+2015-11-14 21:45:16,062 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 129720003 of <1000000000, 1500000000>
+2015-11-14 21:45:16,478 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 129840003 of <1000000000, 1500000000>
+2015-11-14 21:45:16,849 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 129960003 of <1000000000, 1500000000>
+2015-11-14 21:45:17,308 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 130080003 of <1000000000, 1500000000>
+2015-11-14 21:45:17,830 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 130200003 of <1000000000, 1500000000>
+2015-11-14 21:45:18,875 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 130320003 of <1000000000, 1500000000>
+2015-11-14 21:45:18,986 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 130440003 of <1000000000, 1500000000>
+2015-11-14 21:45:19,772 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 130560003 of <1000000000, 1500000000>
+2015-11-14 21:45:19,804 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 130680003 of <1000000000, 1500000000>
+2015-11-14 21:45:20,117 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 130800003 of <1000000000, 1500000000>
+2015-11-14 21:45:20,602 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 130920003 of <1000000000, 1500000000>
+2015-11-14 21:45:21,108 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 131040003 of <1000000000, 1500000000>
+2015-11-14 21:45:21,569 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 131160003 of <1000000000, 1500000000>
+2015-11-14 21:45:22,040 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 131280003 of <1000000000, 1500000000>
+2015-11-14 21:45:22,459 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 131400003 of <1000000000, 1500000000>
+2015-11-14 21:45:23,286 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 131520003 of <1000000000, 1500000000>
+2015-11-14 21:45:23,525 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 131640003 of <1000000000, 1500000000>
+2015-11-14 21:45:24,462 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 131760003 of <1000000000, 1500000000>
+2015-11-14 21:45:25,689 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 131880003 of <1000000000, 1500000000>
+2015-11-14 21:45:25,829 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 132000003 of <1000000000, 1500000000>
+2015-11-14 21:45:26,148 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 132120003 of <1000000000, 1500000000>
+2015-11-14 21:45:26,591 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 132240003 of <1000000000, 1500000000>
+2015-11-14 21:45:27,101 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 132360003 of <1000000000, 1500000000>
+2015-11-14 21:45:27,613 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 132480003 of <1000000000, 1500000000>
+2015-11-14 21:45:29,042 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 132600003 of <1000000000, 1500000000>
+2015-11-14 21:45:29,119 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 132720003 of <1000000000, 1500000000>
+2015-11-14 21:45:30,633 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 132840003 of <1000000000, 1500000000>
+2015-11-14 21:45:30,672 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 132960003 of <1000000000, 1500000000>
+2015-11-14 21:45:30,696 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 133080003 of <1000000000, 1500000000>
+2015-11-14 21:45:30,720 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 133200003 of <1000000000, 1500000000>
+2015-11-14 21:45:31,718 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 133320003 of <1000000000, 1500000000>
+2015-11-14 21:45:32,614 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 133440003 of <1000000000, 1500000000>
+2015-11-14 21:45:34,208 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 133560003 of <1000000000, 1500000000>
+2015-11-14 21:45:34,408 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 133680003 of <1000000000, 1500000000>
+2015-11-14 21:45:35,273 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 133800003 of <1000000000, 1500000000>
+2015-11-14 21:45:35,961 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 133920003 of <1000000000, 1500000000>
+2015-11-14 21:45:38,808 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 134040003 of <1000000000, 1500000000>
+2015-11-14 21:45:39,118 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 134160003 of <1000000000, 1500000000>
+2015-11-14 21:45:40,092 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 134280003 of <1000000000, 1500000000>
+2015-11-14 21:45:40,243 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 134400003 of <1000000000, 1500000000>
+2015-11-14 21:45:40,530 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 134520003 of <1000000000, 1500000000>
+2015-11-14 21:45:41,306 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 134640003 of <1000000000, 1500000000>
+2015-11-14 21:45:42,511 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 134760003 of <1000000000, 1500000000>
+2015-11-14 21:45:44,045 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 134880003 of <1000000000, 1500000000>
+2015-11-14 21:45:44,080 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 135000003 of <1000000000, 1500000000>
+2015-11-14 21:45:45,493 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 135120003 of <1000000000, 1500000000>
+2015-11-14 21:45:46,199 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 135240003 of <1000000000, 1500000000>
+2015-11-14 21:45:46,922 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 135360003 of <1000000000, 1500000000>
+2015-11-14 21:45:47,626 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 135480003 of <1000000000, 1500000000>
+2015-11-14 21:45:48,423 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 135600003 of <1000000000, 1500000000>
+2015-11-14 21:45:50,040 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 135720003 of <1000000000, 1500000000>
+2015-11-14 21:45:50,547 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 135840003 of <1000000000, 1500000000>
+2015-11-14 21:45:51,159 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 135960003 of <1000000000, 1500000000>
+2015-11-14 21:45:51,837 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 136080003 of <1000000000, 1500000000>
+2015-11-14 21:45:52,489 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 136200003 of <1000000000, 1500000000>
+2015-11-14 21:45:53,091 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 136320003 of <1000000000, 1500000000>
+2015-11-14 21:45:53,876 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 136440003 of <1000000000, 1500000000>
+2015-11-14 21:45:55,256 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 136560003 of <1000000000, 1500000000>
+2015-11-14 21:45:55,793 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 136680003 of <1000000000, 1500000000>
+2015-11-14 21:45:56,303 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 136800003 of <1000000000, 1500000000>
+2015-11-14 21:45:56,911 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 136920003 of <1000000000, 1500000000>
+2015-11-14 21:45:57,514 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 137040003 of <1000000000, 1500000000>
+2015-11-14 21:45:58,121 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 137160003 of <1000000000, 1500000000>
+2015-11-14 21:45:58,664 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 137280003 of <1000000000, 1500000000>
+2015-11-14 21:46:00,420 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 137400003 of <1000000000, 1500000000>
+2015-11-14 21:46:00,536 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 137520003 of <1000000000, 1500000000>
+2015-11-14 21:46:00,949 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 137640003 of <1000000000, 1500000000>
+2015-11-14 21:46:01,696 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 137760003 of <1000000000, 1500000000>
+2015-11-14 21:46:02,306 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 137880003 of <1000000000, 1500000000>
+2015-11-14 21:46:02,989 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 138000003 of <1000000000, 1500000000>
+2015-11-14 21:46:03,690 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 138120003 of <1000000000, 1500000000>
+2015-11-14 21:46:05,682 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 138240003 of <1000000000, 1500000000>
+2015-11-14 21:46:06,046 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 138360003 of <1000000000, 1500000000>
+2015-11-14 21:46:06,622 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 138480003 of <1000000000, 1500000000>
+2015-11-14 21:46:07,239 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 138600003 of <1000000000, 1500000000>
+2015-11-14 21:46:07,798 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 138720003 of <1000000000, 1500000000>
+2015-11-14 21:46:08,389 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 138840003 of <1000000000, 1500000000>
+2015-11-14 21:46:09,015 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 138960003 of <1000000000, 1500000000>
+2015-11-14 21:46:10,433 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 139080003 of <1000000000, 1500000000>
+2015-11-14 21:46:10,891 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 139200003 of <1000000000, 1500000000>
+2015-11-14 21:46:11,529 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 139320003 of <1000000000, 1500000000>
+2015-11-14 21:46:12,094 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 139440003 of <1000000000, 1500000000>
+2015-11-14 21:46:12,664 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 139560003 of <1000000000, 1500000000>
+2015-11-14 21:46:13,080 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 139680003 of <1000000000, 1500000000>
+2015-11-14 21:46:13,888 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 139800003 of <1000000000, 1500000000>
+2015-11-14 21:46:14,685 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 139920003 of <1000000000, 1500000000>
+2015-11-14 21:46:14,838 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 140040003 of <1000000000, 1500000000>
+2015-11-14 21:46:15,243 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 140160003 of <1000000000, 1500000000>
+2015-11-14 21:46:15,777 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 140280003 of <1000000000, 1500000000>
+2015-11-14 21:46:16,382 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 140400003 of <1000000000, 1500000000>
+2015-11-14 21:46:17,004 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 140520003 of <1000000000, 1500000000>
+2015-11-14 21:46:17,539 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 140640003 of <1000000000, 1500000000>
+2015-11-14 21:46:18,167 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 140760003 of <1000000000, 1500000000>
+2015-11-14 21:46:18,970 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 140880003 of <1000000000, 1500000000>
+2015-11-14 21:46:19,992 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 141000003 of <1000000000, 1500000000>
+2015-11-14 21:46:20,040 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 141120003 of <1000000000, 1500000000>
+2015-11-14 21:46:21,141 INFO [communication thread] org.apache.hadoop.mapred.Task: Communication exception: java.io.EOFException: End of File Exception between local host is: "slave1/172.28.143.112"; destination host is: "slave3":47706; : java.io.EOFException; For more details see:  http://wiki.apache.org/hadoop/EOFException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:791)
+	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:764)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1472)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1399)
+	at org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:244)
+	at com.sun.proxy.$Proxy7.statusUpdate(Unknown Source)
+	at org.apache.hadoop.mapred.Task$TaskReporter.run(Task.java:737)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.hadoop.ipc.Client$Connection.receiveRpcResponse(Client.java:1071)
+	at org.apache.hadoop.ipc.Client$Connection.run(Client.java:966)
+
+2015-11-14 21:46:21,499 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 141240003 of <1000000000, 1500000000>
+2015-11-14 21:46:21,806 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 141360003 of <1000000000, 1500000000>
+2015-11-14 21:46:22,154 INFO [main] HiBench.NutchData$CreateUrlHash: still running: 141480003 of <1000000000, 1500000000>
+2015-11-14 21:46:25,669 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: slave3/172.28.141.118:47706. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-11-14 21:46:26,414 WARN [ResponseProcessor for block BP-1453324395-172.28.143.112-1446961098457:blk_1073749643_8863] org.apache.hadoop.hdfs.DFSClient: DFSOutputStream ResponseProcessor exception  for block BP-1453324395-172.28.143.112-1446961098457:blk_1073749643_8863
+java.io.IOException: Bad response ERROR for block BP-1453324395-172.28.143.112-1446961098457:blk_1073749643_8863 from datanode 172.28.141.118:50010
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer$ResponseProcessor.run(DFSOutputStream.java:897)
+2015-11-14 21:46:26,430 WARN [DataStreamer for file /HiBench/Nutchindexing/Input/crawl_parse/part-00004 block BP-1453324395-172.28.143.112-1446961098457:blk_1073749643_8863] org.apache.hadoop.hdfs.DFSClient: Error Recovery for block BP-1453324395-172.28.143.112-1446961098457:blk_1073749643_8863 in pipeline 172.28.143.112:50010, 172.28.141.118:50010: bad datanode 172.28.141.118:50010
+2015-11-14 21:46:26,623 WARN [ResponseProcessor for block BP-1453324395-172.28.143.112-1446961098457:blk_1073749623_8843] org.apache.hadoop.hdfs.DFSClient: DFSOutputStream ResponseProcessor exception  for block BP-1453324395-172.28.143.112-1446961098457:blk_1073749623_8843
+java.io.IOException: Bad response ERROR for block BP-1453324395-172.28.143.112-1446961098457:blk_1073749623_8843 from datanode 172.28.141.118:50010
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer$ResponseProcessor.run(DFSOutputStream.java:897)
+2015-11-14 21:46:26,623 WARN [DataStreamer for file /HiBench/Nutchindexing/temp/urls/_temporary/1/_temporary/attempt_1447010348764_0042_m_000005_1/part-00005/data block BP-1453324395-172.28.143.112-1446961098457:blk_1073749623_8843] org.apache.hadoop.hdfs.DFSClient: Error Recovery for block BP-1453324395-172.28.143.112-1446961098457:blk_1073749623_8843 in pipeline 172.28.143.112:50010, 172.28.141.118:50010: bad datanode 172.28.141.118:50010
+2015-11-14 21:46:26,634 WARN [ResponseProcessor for block BP-1453324395-172.28.143.112-1446961098457:blk_1073749560_8780] org.apache.hadoop.hdfs.DFSClient: DFSOutputStream ResponseProcessor exception  for block BP-1453324395-172.28.143.112-1446961098457:blk_1073749560_8780
+java.io.IOException: Bad response ERROR for block BP-1453324395-172.28.143.112-1446961098457:blk_1073749560_8780 from datanode 172.28.141.118:50010
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer$ResponseProcessor.run(DFSOutputStream.java:897)
+2015-11-14 21:46:26,634 WARN [DataStreamer for file /HiBench/Nutchindexing/temp/urls/_temporary/1/_temporary/attempt_1447010348764_0042_m_000005_1/part-00005/index block BP-1453324395-172.28.143.112-1446961098457:blk_1073749560_8780] org.apache.hadoop.hdfs.DFSClient: Error Recovery for block BP-1453324395-172.28.143.112-1446961098457:blk_1073749560_8780 in pipeline 172.28.143.112:50010, 172.28.141.118:50010: bad datanode 172.28.141.118:50010
+2015-11-14 21:46:26,642 WARN [ResponseProcessor for block BP-1453324395-172.28.143.112-1446961098457:blk_1073749642_8862] org.apache.hadoop.hdfs.DFSClient: DFSOutputStream ResponseProcessor exception  for block BP-1453324395-172.28.143.112-1446961098457:blk_1073749642_8862
+java.io.IOException: Bad response ERROR for block BP-1453324395-172.28.143.112-1446961098457:blk_1073749642_8862 from datanode 172.28.141.118:50010
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer$ResponseProcessor.run(DFSOutputStream.java:897)
+2015-11-14 21:46:26,642 WARN [DataStreamer for file /HiBench/Nutchindexing/Input/crawl_fetch/part-00004 block BP-1453324395-172.28.143.112-1446961098457:blk_1073749642_8862] org.apache.hadoop.hdfs.DFSClient: Error Recovery for block BP-1453324395-172.28.143.112-1446961098457:blk_1073749642_8862 in pipeline 172.28.143.112:50010, 172.28.141.118:50010: bad datanode 172.28.141.118:50010
+2015-11-14 21:46:26,662 WARN [ResponseProcessor for block BP-1453324395-172.28.143.112-1446961098457:blk_1073749644_8864] org.apache.hadoop.hdfs.DFSClient: DFSOutputStream ResponseProcessor exception  for block BP-1453324395-172.28.143.112-1446961098457:blk_1073749644_8864
+java.io.IOException: Bad response ERROR for block BP-1453324395-172.28.143.112-1446961098457:blk_1073749644_8864 from datanode 172.28.141.118:50010
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer$ResponseProcessor.run(DFSOutputStream.java:897)
+2015-11-14 21:46:26,662 WARN [DataStreamer for file /HiBench/Nutchindexing/Input/crawldb/current/part-00004 block BP-1453324395-172.28.143.112-1446961098457:blk_1073749644_8864] org.apache.hadoop.hdfs.DFSClient: Error Recovery for block BP-1453324395-172.28.143.112-1446961098457:blk_1073749644_8864 in pipeline 172.28.143.112:50010, 172.28.141.118:50010: bad datanode 172.28.141.118:50010
+2015-11-14 21:46:26,670 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: slave3/172.28.141.118:47706. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-11-14 21:46:27,670 INFO [communication thread] org.apache.hadoop.ipc.Client: Retrying connect to server: slave3/172.28.141.118:47706. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-11-14 21:46:30,086 INFO [DataStreamer for file /HiBench/Nutchindexing/Input/crawl_parse/part-00004 block BP-1453324395-172.28.143.112-1446961098457:blk_1073749643_8863] org.apache.hadoop.hdfs.DFSClient: Exception in createBlockOutputStream
+java.io.IOException: Bad connect ack with firstBadLink as 172.28.140.193:50010
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.createBlockOutputStream(DFSOutputStream.java:1460)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.setupPipelineForAppendOrRecovery(DFSOutputStream.java:1281)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.processDatanodeError(DFSOutputStream.java:1004)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.run(DFSOutputStream.java:548)
+2015-11-14 21:46:30,087 WARN [DataStreamer for file /HiBench/Nutchindexing/Input/crawl_parse/part-00004 block BP-1453324395-172.28.143.112-1446961098457:blk_1073749643_8863] org.apache.hadoop.hdfs.DFSClient: Error Recovery for block BP-1453324395-172.28.143.112-1446961098457:blk_1073749643_8863 in pipeline 172.28.143.112:50010, 172.28.140.193:50010: bad datanode 172.28.140.193:50010
+2015-11-14 21:46:30,087 INFO [DataStreamer for file /HiBench/Nutchindexing/Input/crawldb/current/part-00004 block BP-1453324395-172.28.143.112-1446961098457:blk_1073749644_8864] org.apache.hadoop.hdfs.DFSClient: Exception in createBlockOutputStream
+java.io.IOException: Bad connect ack with firstBadLink as 172.28.140.193:50010
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.createBlockOutputStream(DFSOutputStream.java:1460)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.setupPipelineForAppendOrRecovery(DFSOutputStream.java:1281)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.processDatanodeError(DFSOutputStream.java:1004)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.run(DFSOutputStream.java:548)
+2015-11-14 21:46:30,087 INFO [DataStreamer for file /HiBench/Nutchindexing/temp/urls/_temporary/1/_temporary/attempt_1447010348764_0042_m_000005_1/part-00005/index block BP-1453324395-172.28.143.112-1446961098457:blk_1073749560_8780] org.apache.hadoop.hdfs.DFSClient: Exception in createBlockOutputStream
+java.io.IOException: Bad connect ack with firstBadLink as 172.28.140.193:50010
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.createBlockOutputStream(DFSOutputStream.java:1460)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.setupPipelineForAppendOrRecovery(DFSOutputStream.java:1281)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.processDatanodeError(DFSOutputStream.java:1004)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.run(DFSOutputStream.java:548)
+2015-11-14 21:46:30,088 WARN [DataStreamer for file /HiBench/Nutchindexing/Input/crawldb/current/part-00004 block BP-1453324395-172.28.143.112-1446961098457:blk_1073749644_8864] org.apache.hadoop.hdfs.DFSClient: Error Recovery for block BP-1453324395-172.28.143.112-1446961098457:blk_1073749644_8864 in pipeline 172.28.143.112:50010, 172.28.140.193:50010: bad datanode 172.28.140.193:50010
+2015-11-14 21:46:30,088 WARN [DataStreamer for file /HiBench/Nutchindexing/temp/urls/_temporary/1/_temporary/attempt_1447010348764_0042_m_000005_1/part-00005/index block BP-1453324395-172.28.143.112-1446961098457:blk_1073749560_8780] org.apache.hadoop.hdfs.DFSClient: Error Recovery for block BP-1453324395-172.28.143.112-1446961098457:blk_1073749560_8780 in pipeline 172.28.143.112:50010, 172.28.140.193:50010: bad datanode 172.28.140.193:50010
+2015-11-14 21:46:30,088 WARN [DataStreamer for file /HiBench/Nutchindexing/Input/crawl_parse/part-00004 block BP-1453324395-172.28.143.112-1446961098457:blk_1073749643_8863] org.apache.hadoop.hdfs.DFSClient: DataStreamer Exception
+java.io.IOException: Failed to replace a bad datanode on the existing pipeline due to no more good datanodes being available to try. (Nodes: current=[172.28.143.112:50010], original=[172.28.143.112:50010]). The current failed datanode replacement policy is DEFAULT, and a client may configure this via 'dfs.client.block.write.replace-datanode-on-failure.policy' in its configuration.
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.findNewDatanode(DFSOutputStream.java:1040)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.addDatanode2ExistingPipeline(DFSOutputStream.java:1106)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.setupPipelineForAppendOrRecovery(DFSOutputStream.java:1253)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.processDatanodeError(DFSOutputStream.java:1004)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.run(DFSOutputStream.java:548)
+2015-11-14 21:46:30,089 WARN [DataStreamer for file /HiBench/Nutchindexing/Input/crawldb/current/part-00004 block BP-1453324395-172.28.143.112-1446961098457:blk_1073749644_8864] org.apache.hadoop.hdfs.DFSClient: DataStreamer Exception
+java.io.IOException: Failed to replace a bad datanode on the existing pipeline due to no more good datanodes being available to try. (Nodes: current=[172.28.143.112:50010], original=[172.28.143.112:50010]). The current failed datanode replacement policy is DEFAULT, and a client may configure this via 'dfs.client.block.write.replace-datanode-on-failure.policy' in its configuration.
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.findNewDatanode(DFSOutputStream.java:1040)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.addDatanode2ExistingPipeline(DFSOutputStream.java:1106)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.setupPipelineForAppendOrRecovery(DFSOutputStream.java:1253)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.processDatanodeError(DFSOutputStream.java:1004)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.run(DFSOutputStream.java:548)
+2015-11-14 21:46:30,089 INFO [DataStreamer for file /HiBench/Nutchindexing/Input/crawl_fetch/part-00004 block BP-1453324395-172.28.143.112-1446961098457:blk_1073749642_8862] org.apache.hadoop.hdfs.DFSClient: Exception in createBlockOutputStream
+java.io.IOException: Bad connect ack with firstBadLink as 172.28.140.193:50010
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.createBlockOutputStream(DFSOutputStream.java:1460)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.setupPipelineForAppendOrRecovery(DFSOutputStream.java:1281)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.processDatanodeError(DFSOutputStream.java:1004)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.run(DFSOutputStream.java:548)
+2015-11-14 21:46:30,089 WARN [DataStreamer for file /HiBench/Nutchindexing/temp/urls/_temporary/1/_temporary/attempt_1447010348764_0042_m_000005_1/part-00005/index block BP-1453324395-172.28.143.112-1446961098457:blk_1073749560_8780] org.apache.hadoop.hdfs.DFSClient: DataStreamer Exception
+java.io.IOException: Failed to replace a bad datanode on the existing pipeline due to no more good datanodes being available to try. (Nodes: current=[172.28.143.112:50010], original=[172.28.143.112:50010]). The current failed datanode replacement policy is DEFAULT, and a client may configure this via 'dfs.client.block.write.replace-datanode-on-failure.policy' in its configuration.
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.findNewDatanode(DFSOutputStream.java:1040)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.addDatanode2ExistingPipeline(DFSOutputStream.java:1106)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.setupPipelineForAppendOrRecovery(DFSOutputStream.java:1253)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.processDatanodeError(DFSOutputStream.java:1004)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.run(DFSOutputStream.java:548)
+2015-11-14 21:46:30,089 WARN [DataStreamer for file /HiBench/Nutchindexing/Input/crawl_fetch/part-00004 block BP-1453324395-172.28.143.112-1446961098457:blk_1073749642_8862] org.apache.hadoop.hdfs.DFSClient: Error Recovery for block BP-1453324395-172.28.143.112-1446961098457:blk_1073749642_8862 in pipeline 172.28.143.112:50010, 172.28.140.193:50010: bad datanode 172.28.140.193:50010
+2015-11-14 21:46:30,090 WARN [DataStreamer for file /HiBench/Nutchindexing/Input/crawl_fetch/part-00004 block BP-1453324395-172.28.143.112-1446961098457:blk_1073749642_8862] org.apache.hadoop.hdfs.DFSClient: DataStreamer Exception
+java.io.IOException: Failed to replace a bad datanode on the existing pipeline due to no more good datanodes being available to try. (Nodes: current=[172.28.143.112:50010], original=[172.28.143.112:50010]). The current failed datanode replacement policy is DEFAULT, and a client may configure this via 'dfs.client.block.write.replace-datanode-on-failure.policy' in its configuration.
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.findNewDatanode(DFSOutputStream.java:1040)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.addDatanode2ExistingPipeline(DFSOutputStream.java:1106)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.setupPipelineForAppendOrRecovery(DFSOutputStream.java:1253)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.processDatanodeError(DFSOutputStream.java:1004)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.run(DFSOutputStream.java:548)
