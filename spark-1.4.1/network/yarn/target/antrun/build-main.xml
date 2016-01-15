@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<project name="maven-antrun-" default="main"  >
-<target name="main">
-  <mkdir dir="/home/carrot/spark-1.4.1/network/yarn/target/tmp"/>
-</target>
-</project>
