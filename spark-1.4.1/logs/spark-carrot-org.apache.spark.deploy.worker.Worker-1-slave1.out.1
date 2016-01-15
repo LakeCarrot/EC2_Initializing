@@ -1,0 +1,129 @@
+Spark Command: /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java -cp /home/carrot/spark-1.4.1/sbin/../conf/:/home/carrot/spark-1.4.1/assembly/target/scala-2.10/spark-assembly-1.4.1-hadoop2.6.1.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-rdbms-3.2.9.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-api-jdo-3.2.6.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-core-3.2.10.jar -Xms512m -Xmx512m -XX:MaxPermSize=256m org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://slave1:7077
+========================================
+15/12/22 14:25:06 INFO Worker: Registered signal handlers for [TERM, HUP, INT]
+15/12/22 14:25:06 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+15/12/22 14:25:06 INFO SecurityManager: Changing view acls to: carrot
+15/12/22 14:25:06 INFO SecurityManager: Changing modify acls to: carrot
+15/12/22 14:25:06 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(carrot); users with modify permissions: Set(carrot)
+15/12/22 14:25:06 INFO Slf4jLogger: Slf4jLogger started
+15/12/22 14:25:06 INFO Remoting: Starting remoting
+15/12/22 14:25:07 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkWorker@172.28.143.112:48849]
+15/12/22 14:25:07 INFO Utils: Successfully started service 'sparkWorker' on port 48849.
+15/12/22 14:25:07 INFO Worker: Starting Spark worker 172.28.143.112:48849 with 4 cores, 6.7 GB RAM
+15/12/22 14:25:07 INFO Worker: Running Spark version 1.4.1
+15/12/22 14:25:07 INFO Worker: Spark home: /home/carrot/spark-1.4.1
+15/12/22 14:25:07 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+15/12/22 14:25:07 INFO WorkerWebUI: Started WorkerWebUI at http://172.28.143.112:8081
+15/12/22 14:25:07 INFO Worker: Connecting to master akka.tcp://sparkMaster@slave1:7077/user/Master...
+15/12/22 14:25:07 INFO Worker: Successfully registered with master spark://slave1:7077
+15/12/22 14:25:35 INFO Worker: Asked to launch executor app-20151222142535-0000/0 for ScalaWordCount
+15/12/22 14:25:35 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java" "-cp" "/home/carrot/spark-1.4.1/sbin/../conf/:/home/carrot/spark-1.4.1/assembly/target/scala-2.10/spark-assembly-1.4.1-hadoop2.6.1.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-rdbms-3.2.9.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-api-jdo-3.2.6.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-core-3.2.10.jar" "-Xms6144M" "-Xmx6144M" "-Dspark.driver.port=51913" "-XX:MaxPermSize=256m" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "akka.tcp://sparkDriver@172.28.143.112:51913/user/CoarseGrainedScheduler" "--executor-id" "0" "--hostname" "172.28.143.112" "--cores" "4" "--app-id" "app-20151222142535-0000" "--worker-url" "akka.tcp://sparkWorker@172.28.143.112:48849/user/Worker"
+15/12/22 14:25:46 INFO Worker: Executor app-20151222142535-0000/0 finished with state EXITED message Command exited with code 1 exitStatus 1
+15/12/22 14:25:46 WARN ReliableDeliverySupervisor: Association with remote system [akka.tcp://sparkExecutor@172.28.143.112:60490] has failed, address is now gated for [5000] ms. Reason is: [Disassociated].
+15/12/22 14:25:46 INFO Worker: Asked to launch executor app-20151222142535-0000/3 for ScalaWordCount
+15/12/22 14:25:46 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java" "-cp" "/home/carrot/spark-1.4.1/sbin/../conf/:/home/carrot/spark-1.4.1/assembly/target/scala-2.10/spark-assembly-1.4.1-hadoop2.6.1.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-rdbms-3.2.9.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-api-jdo-3.2.6.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-core-3.2.10.jar" "-Xms6144M" "-Xmx6144M" "-Dspark.driver.port=51913" "-XX:MaxPermSize=256m" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "akka.tcp://sparkDriver@172.28.143.112:51913/user/CoarseGrainedScheduler" "--executor-id" "3" "--hostname" "172.28.143.112" "--cores" "4" "--app-id" "app-20151222142535-0000" "--worker-url" "akka.tcp://sparkWorker@172.28.143.112:48849/user/Worker"
+15/12/22 14:25:58 INFO Worker: Executor app-20151222142535-0000/3 finished with state EXITED message Command exited with code 1 exitStatus 1
+15/12/22 14:25:58 WARN ReliableDeliverySupervisor: Association with remote system [akka.tcp://sparkExecutor@172.28.143.112:47113] has failed, address is now gated for [5000] ms. Reason is: [Disassociated].
+15/12/22 14:25:58 INFO Worker: Asked to launch executor app-20151222142535-0000/7 for ScalaWordCount
+15/12/22 14:25:58 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java" "-cp" "/home/carrot/spark-1.4.1/sbin/../conf/:/home/carrot/spark-1.4.1/assembly/target/scala-2.10/spark-assembly-1.4.1-hadoop2.6.1.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-rdbms-3.2.9.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-api-jdo-3.2.6.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-core-3.2.10.jar" "-Xms6144M" "-Xmx6144M" "-Dspark.driver.port=51913" "-XX:MaxPermSize=256m" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "akka.tcp://sparkDriver@172.28.143.112:51913/user/CoarseGrainedScheduler" "--executor-id" "7" "--hostname" "172.28.143.112" "--cores" "4" "--app-id" "app-20151222142535-0000" "--worker-url" "akka.tcp://sparkWorker@172.28.143.112:48849/user/Worker"
+15/12/22 14:26:08 INFO Worker: Executor app-20151222142535-0000/7 finished with state EXITED message Command exited with code 0 exitStatus 0
+15/12/22 14:26:09 INFO Worker: Asked to kill unknown executor app-20151222142535-0000/7
+15/12/22 14:26:09 INFO Worker: Cleaning up local directories for application app-20151222142535-0000
+15/12/22 14:27:58 INFO Worker: Asked to launch executor app-20151222142758-0001/0 for ScalaWordCount
+15/12/22 14:27:58 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java" "-cp" "/home/carrot/spark-1.4.1/sbin/../conf/:/home/carrot/spark-1.4.1/assembly/target/scala-2.10/spark-assembly-1.4.1-hadoop2.6.1.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-rdbms-3.2.9.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-api-jdo-3.2.6.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-core-3.2.10.jar" "-Xms6144M" "-Xmx6144M" "-Dspark.driver.port=46059" "-XX:MaxPermSize=256m" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "akka.tcp://sparkDriver@172.28.143.112:46059/user/CoarseGrainedScheduler" "--executor-id" "0" "--hostname" "172.28.143.112" "--cores" "4" "--app-id" "app-20151222142758-0001" "--worker-url" "akka.tcp://sparkWorker@172.28.143.112:48849/user/Worker"
+15/12/22 14:31:28 INFO Worker: Asked to kill executor app-20151222142758-0001/0
+15/12/22 14:31:28 INFO ExecutorRunner: Runner thread for executor app-20151222142758-0001/0 interrupted
+15/12/22 14:31:28 INFO ExecutorRunner: Killing process!
+15/12/22 14:31:28 ERROR FileAppender: Error writing stream to file /home/carrot/spark-1.4.1/work/app-20151222142758-0001/0/stderr
+java.io.IOException: Stream closed
+	at java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:162)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:272)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.apache.spark.util.logging.FileAppender.appendStreamToFile(FileAppender.scala:70)
+	at org.apache.spark.util.logging.FileAppender$$anon$1$$anonfun$run$1.apply$mcV$sp(FileAppender.scala:39)
+	at org.apache.spark.util.logging.FileAppender$$anon$1$$anonfun$run$1.apply(FileAppender.scala:39)
+	at org.apache.spark.util.logging.FileAppender$$anon$1$$anonfun$run$1.apply(FileAppender.scala:39)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1772)
+	at org.apache.spark.util.logging.FileAppender$$anon$1.run(FileAppender.scala:38)
+15/12/22 14:31:28 INFO Worker: Executor app-20151222142758-0001/0 finished with state KILLED exitStatus 143
+15/12/22 14:31:28 INFO Worker: Cleaning up local directories for application app-20151222142758-0001
+15/12/22 14:32:41 INFO Worker: Asked to launch executor app-20151222143241-0002/0 for ScalaWordCount
+15/12/22 14:32:41 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java" "-cp" "/home/carrot/spark-1.4.1/sbin/../conf/:/home/carrot/spark-1.4.1/assembly/target/scala-2.10/spark-assembly-1.4.1-hadoop2.6.1.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-rdbms-3.2.9.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-api-jdo-3.2.6.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-core-3.2.10.jar" "-Xms6144M" "-Xmx6144M" "-Dspark.driver.port=57777" "-XX:MaxPermSize=256m" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "akka.tcp://sparkDriver@172.28.143.112:57777/user/CoarseGrainedScheduler" "--executor-id" "0" "--hostname" "172.28.143.112" "--cores" "4" "--app-id" "app-20151222143241-0002" "--worker-url" "akka.tcp://sparkWorker@172.28.143.112:48849/user/Worker"
+15/12/22 14:37:05 INFO Worker: Asked to kill executor app-20151222143241-0002/0
+15/12/22 14:37:05 INFO ExecutorRunner: Runner thread for executor app-20151222143241-0002/0 interrupted
+15/12/22 14:37:05 INFO ExecutorRunner: Killing process!
+15/12/22 14:37:05 INFO Worker: Executor app-20151222143241-0002/0 finished with state KILLED exitStatus 0
+15/12/22 14:37:05 INFO Worker: Cleaning up local directories for application app-20151222143241-0002
+15/12/22 14:38:11 INFO Worker: Asked to launch executor app-20151222143811-0003/0 for ScalaWordCount
+15/12/22 14:38:11 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java" "-cp" "/home/carrot/spark-1.4.1/sbin/../conf/:/home/carrot/spark-1.4.1/assembly/target/scala-2.10/spark-assembly-1.4.1-hadoop2.6.1.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-rdbms-3.2.9.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-api-jdo-3.2.6.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-core-3.2.10.jar" "-Xms6144M" "-Xmx6144M" "-Dspark.driver.port=45451" "-XX:MaxPermSize=256m" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "akka.tcp://sparkDriver@172.28.143.112:45451/user/CoarseGrainedScheduler" "--executor-id" "0" "--hostname" "172.28.143.112" "--cores" "4" "--app-id" "app-20151222143811-0003" "--worker-url" "akka.tcp://sparkWorker@172.28.143.112:48849/user/Worker"
+15/12/22 14:41:53 INFO Worker: Asked to kill executor app-20151222143811-0003/0
+15/12/22 14:41:53 INFO ExecutorRunner: Runner thread for executor app-20151222143811-0003/0 interrupted
+15/12/22 14:41:53 INFO ExecutorRunner: Killing process!
+15/12/22 14:41:53 INFO Worker: Executor app-20151222143811-0003/0 finished with state KILLED exitStatus 0
+15/12/22 14:41:53 INFO Worker: Cleaning up local directories for application app-20151222143811-0003
+15/12/22 14:42:43 INFO Worker: Asked to launch executor app-20151222144243-0004/0 for ScalaPageRank
+15/12/22 14:42:43 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java" "-cp" "/home/carrot/spark-1.4.1/sbin/../conf/:/home/carrot/spark-1.4.1/assembly/target/scala-2.10/spark-assembly-1.4.1-hadoop2.6.1.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-rdbms-3.2.9.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-api-jdo-3.2.6.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-core-3.2.10.jar" "-Xms6144M" "-Xmx6144M" "-Dspark.driver.port=60942" "-XX:MaxPermSize=256m" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "akka.tcp://sparkDriver@172.28.143.112:60942/user/CoarseGrainedScheduler" "--executor-id" "0" "--hostname" "172.28.143.112" "--cores" "4" "--app-id" "app-20151222144243-0004" "--worker-url" "akka.tcp://sparkWorker@172.28.143.112:48849/user/Worker"
+15/12/22 14:45:27 INFO Worker: Asked to kill executor app-20151222144243-0004/0
+15/12/22 14:45:27 INFO ExecutorRunner: Runner thread for executor app-20151222144243-0004/0 interrupted
+15/12/22 14:45:27 INFO ExecutorRunner: Killing process!
+15/12/22 14:45:28 INFO Worker: Executor app-20151222144243-0004/0 finished with state KILLED exitStatus 0
+15/12/22 14:45:28 INFO Worker: Cleaning up local directories for application app-20151222144243-0004
+15/12/22 14:46:24 INFO Worker: Asked to launch executor app-20151222144624-0005/0 for ScalaPageRank
+15/12/22 14:46:24 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java" "-cp" "/home/carrot/spark-1.4.1/sbin/../conf/:/home/carrot/spark-1.4.1/assembly/target/scala-2.10/spark-assembly-1.4.1-hadoop2.6.1.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-rdbms-3.2.9.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-api-jdo-3.2.6.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-core-3.2.10.jar" "-Xms6144M" "-Xmx6144M" "-Dspark.driver.port=53888" "-XX:MaxPermSize=256m" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "akka.tcp://sparkDriver@172.28.143.112:53888/user/CoarseGrainedScheduler" "--executor-id" "0" "--hostname" "172.28.143.112" "--cores" "4" "--app-id" "app-20151222144624-0005" "--worker-url" "akka.tcp://sparkWorker@172.28.143.112:48849/user/Worker"
+15/12/22 14:48:30 INFO Worker: Asked to kill executor app-20151222144624-0005/0
+15/12/22 14:48:30 INFO ExecutorRunner: Runner thread for executor app-20151222144624-0005/0 interrupted
+15/12/22 14:48:31 INFO ExecutorRunner: Killing process!
+15/12/22 14:48:31 ERROR FileAppender: Error writing stream to file /home/carrot/spark-1.4.1/work/app-20151222144624-0005/0/stderr
+java.io.IOException: Stream closed
+	at java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:162)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:272)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.apache.spark.util.logging.FileAppender.appendStreamToFile(FileAppender.scala:70)
+	at org.apache.spark.util.logging.FileAppender$$anon$1$$anonfun$run$1.apply$mcV$sp(FileAppender.scala:39)
+	at org.apache.spark.util.logging.FileAppender$$anon$1$$anonfun$run$1.apply(FileAppender.scala:39)
+	at org.apache.spark.util.logging.FileAppender$$anon$1$$anonfun$run$1.apply(FileAppender.scala:39)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1772)
+	at org.apache.spark.util.logging.FileAppender$$anon$1.run(FileAppender.scala:38)
+15/12/22 14:48:35 INFO Worker: Executor app-20151222144624-0005/0 finished with state KILLED exitStatus 143
+15/12/22 14:48:35 INFO Worker: Cleaning up local directories for application app-20151222144624-0005
+15/12/22 14:49:56 INFO Worker: Asked to launch executor app-20151222144955-0006/0 for ScalaPageRank
+15/12/22 14:49:56 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java" "-cp" "/home/carrot/spark-1.4.1/sbin/../conf/:/home/carrot/spark-1.4.1/assembly/target/scala-2.10/spark-assembly-1.4.1-hadoop2.6.1.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-rdbms-3.2.9.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-api-jdo-3.2.6.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-core-3.2.10.jar" "-Xms6144M" "-Xmx6144M" "-Dspark.driver.port=52372" "-XX:MaxPermSize=256m" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "akka.tcp://sparkDriver@172.28.143.112:52372/user/CoarseGrainedScheduler" "--executor-id" "0" "--hostname" "172.28.143.112" "--cores" "4" "--app-id" "app-20151222144955-0006" "--worker-url" "akka.tcp://sparkWorker@172.28.143.112:48849/user/Worker"
+15/12/22 14:51:53 INFO Worker: Asked to kill executor app-20151222144955-0006/0
+15/12/22 14:51:53 INFO ExecutorRunner: Runner thread for executor app-20151222144955-0006/0 interrupted
+15/12/22 14:51:53 INFO ExecutorRunner: Killing process!
+15/12/22 14:51:53 ERROR FileAppender: Error writing stream to file /home/carrot/spark-1.4.1/work/app-20151222144955-0006/0/stderr
+java.io.IOException: Stream closed
+	at java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:162)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:272)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.apache.spark.util.logging.FileAppender.appendStreamToFile(FileAppender.scala:70)
+	at org.apache.spark.util.logging.FileAppender$$anon$1$$anonfun$run$1.apply$mcV$sp(FileAppender.scala:39)
+	at org.apache.spark.util.logging.FileAppender$$anon$1$$anonfun$run$1.apply(FileAppender.scala:39)
+	at org.apache.spark.util.logging.FileAppender$$anon$1$$anonfun$run$1.apply(FileAppender.scala:39)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1772)
+	at org.apache.spark.util.logging.FileAppender$$anon$1.run(FileAppender.scala:38)
+15/12/22 14:51:54 INFO Worker: Executor app-20151222144955-0006/0 finished with state KILLED exitStatus 143
+15/12/22 14:51:54 INFO Worker: Cleaning up local directories for application app-20151222144955-0006
+15/12/22 14:52:51 INFO Worker: Asked to launch executor app-20151222145251-0007/0 for ScalaPageRank
+15/12/22 14:52:51 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java" "-cp" "/home/carrot/spark-1.4.1/sbin/../conf/:/home/carrot/spark-1.4.1/assembly/target/scala-2.10/spark-assembly-1.4.1-hadoop2.6.1.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-rdbms-3.2.9.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-api-jdo-3.2.6.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-core-3.2.10.jar" "-Xms6144M" "-Xmx6144M" "-Dspark.driver.port=48734" "-XX:MaxPermSize=256m" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "akka.tcp://sparkDriver@172.28.143.112:48734/user/CoarseGrainedScheduler" "--executor-id" "0" "--hostname" "172.28.143.112" "--cores" "4" "--app-id" "app-20151222145251-0007" "--worker-url" "akka.tcp://sparkWorker@172.28.143.112:48849/user/Worker"
+15/12/22 14:54:52 INFO Worker: Asked to kill executor app-20151222145251-0007/0
+15/12/22 14:54:53 INFO ExecutorRunner: Runner thread for executor app-20151222145251-0007/0 interrupted
+15/12/22 14:54:53 INFO ExecutorRunner: Killing process!
+15/12/22 14:54:53 INFO Worker: Executor app-20151222145251-0007/0 finished with state KILLED exitStatus 0
+15/12/22 14:54:53 INFO Worker: Cleaning up local directories for application app-20151222145251-0007
+15/12/22 14:55:35 INFO Worker: Asked to launch executor app-20151222145535-0008/0 for ScalaPageRank
+15/12/22 14:55:35 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java" "-cp" "/home/carrot/spark-1.4.1/sbin/../conf/:/home/carrot/spark-1.4.1/assembly/target/scala-2.10/spark-assembly-1.4.1-hadoop2.6.1.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-rdbms-3.2.9.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-api-jdo-3.2.6.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-core-3.2.10.jar" "-Xms6144M" "-Xmx6144M" "-Dspark.driver.port=38085" "-XX:MaxPermSize=256m" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "akka.tcp://sparkDriver@172.28.143.112:38085/user/CoarseGrainedScheduler" "--executor-id" "0" "--hostname" "172.28.143.112" "--cores" "4" "--app-id" "app-20151222145535-0008" "--worker-url" "akka.tcp://sparkWorker@172.28.143.112:48849/user/Worker"
+15/12/22 14:57:36 INFO Worker: Asked to kill executor app-20151222145535-0008/0
+15/12/22 14:57:36 INFO ExecutorRunner: Runner thread for executor app-20151222145535-0008/0 interrupted
+15/12/22 14:57:36 INFO ExecutorRunner: Killing process!
+15/12/22 14:57:37 INFO Worker: Executor app-20151222145535-0008/0 finished with state KILLED exitStatus 0
+15/12/22 14:57:37 INFO Worker: Cleaning up local directories for application app-20151222145535-0008
+15/12/22 14:58:53 ERROR Worker: RECEIVED SIGNAL 15: SIGTERM
+15/12/22 14:58:54 INFO ExecutorRunner: Killing process!
+15/12/22 14:58:54 INFO ExecutorRunner: Killing process!
+15/12/22 14:58:54 INFO ExecutorRunner: Killing process!
+15/12/22 14:58:54 INFO Utils: Shutdown hook called
+15/12/22 14:58:54 INFO Utils: Deleting directory /tmp/spark-7005f387-4bc7-4099-9104-9cd2d74d89b1

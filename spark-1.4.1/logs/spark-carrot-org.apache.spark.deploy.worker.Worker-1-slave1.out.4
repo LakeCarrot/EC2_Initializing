@@ -1,0 +1,20 @@
+Spark Command: /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java -cp /home/carrot/spark-1.4.1/sbin/../conf/:/home/carrot/spark-1.4.1/assembly/target/scala-2.10/spark-assembly-1.4.1-hadoop2.6.1.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-rdbms-3.2.9.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-api-jdo-3.2.6.jar:/home/carrot/spark-1.4.1/lib_managed/jars/datanucleus-core-3.2.10.jar -Xms512m -Xmx512m -XX:MaxPermSize=256m org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://slave1:7077
+========================================
+15/12/22 00:47:50 INFO Worker: Registered signal handlers for [TERM, HUP, INT]
+15/12/22 00:47:51 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+15/12/22 00:47:51 INFO SecurityManager: Changing view acls to: carrot
+15/12/22 00:47:51 INFO SecurityManager: Changing modify acls to: carrot
+15/12/22 00:47:51 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(carrot); users with modify permissions: Set(carrot)
+15/12/22 00:47:51 INFO Slf4jLogger: Slf4jLogger started
+15/12/22 00:47:51 INFO Remoting: Starting remoting
+15/12/22 00:47:52 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkWorker@172.28.143.112:37643]
+15/12/22 00:47:52 INFO Utils: Successfully started service 'sparkWorker' on port 37643.
+15/12/22 00:47:52 INFO Worker: Starting Spark worker 172.28.143.112:37643 with 4 cores, 6.7 GB RAM
+15/12/22 00:47:52 INFO Worker: Running Spark version 1.4.1
+15/12/22 00:47:52 INFO Worker: Spark home: /home/carrot/spark-1.4.1
+15/12/22 00:47:52 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+15/12/22 00:47:52 INFO WorkerWebUI: Started WorkerWebUI at http://172.28.143.112:8081
+15/12/22 00:47:52 INFO Worker: Connecting to master akka.tcp://sparkMaster@slave1:7077/user/Master...
+15/12/22 00:47:52 INFO Worker: Successfully registered with master spark://slave1:7077
+15/12/22 00:51:06 ERROR Worker: RECEIVED SIGNAL 15: SIGTERM
+15/12/22 00:51:06 INFO Utils: Shutdown hook called
